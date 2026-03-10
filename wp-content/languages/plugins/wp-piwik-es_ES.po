@@ -1,0 +1,1501 @@
+# Translation of Plugins - WP-Matomo Integration (WP-Piwik) - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP-Matomo Integration (WP-Piwik) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-13 10:56:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP-Matomo Integration (WP-Piwik) - Stable (latest release)\n"
+
+#: classes/WP_Piwik/Widget/City.php:18
+msgid "Cities"
+msgstr "Ciudades"
+
+#: classes/WP_Piwik/Widget.php:349
+msgid "last 60 days"
+msgstr "últimos 60 días"
+
+#: classes/WP_Piwik/Widget.php:347
+msgid "last 90 days"
+msgstr "últimos 90 días"
+
+#: classes/WP_Piwik/Admin/Settings.php:577
+msgid "Graphs powered by <a href=\"https://www.chartjs.org\" target=\"_BLANK\">Chart.js</a> (MIT License)."
+msgstr "Gráficos creados con <a href=\"https://www.chartjs.org\" target=\"_BLANK\">Chart.js</a> (Licencia MIT)."
+
+#: classes/WP_Piwik/Admin/Settings.php:576
+msgid "Thank you very much, everyone who donates to the WP-Matomo project, including the Matomo team!"
+msgstr "Muchas gracias a todos los que donan al proyecto WP-Matomo, ¡incluido el equipo de Matomo!"
+
+#: classes/WP_Piwik/Admin/Settings.php:351
+msgid "Removes the type attribute from Matomo's tracking code script tag."
+msgstr "Elimina el tipo de atributo desde la etiqueta del script del código de seguimiento de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:351
+msgid "Remove type attribute"
+msgstr "Eliminar el tipo atributo"
+
+#: classes/WP_Piwik/Admin/Settings.php:175
+#: classes/WP_Piwik/Admin/Settings.php:201
+msgid "Last 90 days"
+msgstr "Últimos 90 días"
+
+#: classes/WP_Piwik/Admin/Settings.php:174
+#: classes/WP_Piwik/Admin/Settings.php:200
+msgid "Last 60 days"
+msgstr "Últimos 60 días"
+
+#: classes/WP_Piwik.php:495
+msgid "Configure WP-Matomo"
+msgstr "Configurar WP-Matomo"
+
+#: classes/WP_Piwik.php:387 classes/WP_Piwik.php:409
+msgid "Matomo Statistics"
+msgstr "Estadísticas de Matomo"
+
+#. Plugin Name of the plugin
+msgid "WP-Matomo Integration"
+msgstr "WP-Matomo Integration"
+
+#: classes/WP_Piwik/Admin/Settings.php:324
+msgid "Use filter_limit if you need to get more than 100 results per page."
+msgstr "Uar el filter_limit si necesitas obtener más de 100 resultados por página."
+
+#: classes/WP_Piwik/Admin/Settings.php:324
+msgid "Filter limit"
+msgstr "Filtrar límite"
+
+#: classes/WP_Piwik/Widget.php:353
+msgid "last 12 "
+msgstr "últimos 12"
+
+#: classes/WP_Piwik/Widget/Models.php:32
+msgid "Model"
+msgstr "Modelo"
+
+#: classes/WP_Piwik/Widget/Models.php:18
+msgid "Models"
+msgstr "Modelos"
+
+#: classes/WP_Piwik/Widget/Types.php:35
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/WP_Piwik/Widget/Types.php:20
+msgid "Types"
+msgstr "Tipos"
+
+#: classes/WP_Piwik/Widget/City.php:32
+msgid "City"
+msgstr "Ciudad"
+
+#: classes/WP_Piwik/Admin/Settings.php:616
+msgid "Reset WP-Matomo"
+msgstr "Restablecer WP-Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:589
+msgid "WP-Matomo support forum"
+msgstr "Foro de soporte WP-Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:578
+msgid "Transifex and WordPress translation community for your translation work."
+msgstr "Transifex y la comunidad de traducción de WordPress para su trabajo de traducción."
+
+#: classes/WP_Piwik/Admin/Settings.php:339
+msgid "Adds data-cfasync=false to the script tag, e.g., to ask Rocket Loader to ignore the script. "
+msgstr "Añade data-cfasync=false a la etiqueta del script, por ejemplo, para pedirle a Rocket Loader que ignore el script."
+
+#: classes/WP_Piwik/Admin/Settings.php:339
+msgid "See %sCloudFlare Knowledge Base%s."
+msgstr "Ver la %sbase de conocimiento de CloudFlare%s."
+
+#: classes/WP_Piwik/Admin/Settings.php:337
+msgid "Add a DNS prefetch tag. "
+msgstr "Añade una etiqueta de precarga de DNS."
+
+#: classes/WP_Piwik/Admin/Settings.php:337
+msgid "See %sMatomo Blog%s."
+msgstr "Ver %sblog de Matomo%s."
+
+#: classes/WP_Piwik/Admin/Settings.php:290
+msgid "This will add Matomo campaign parameters to the RSS feed links. "
+msgstr "Esto añadirá los parámetros de la campaña de Matomo a los enlaces de fuentes RSS."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+#: classes/WP_Piwik/Admin/Settings.php:240
+#: classes/WP_Piwik/Admin/Settings.php:250
+msgid "See %sMatomo FAQ%s."
+msgstr "Ver %sFAQ de Matomo%s."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "WP-Matomo will use Matomo's standard tracking code."
+msgstr "WP-Matomo utilizará el código de seguimiento estándar de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:207
+msgid "WP-Matomo display name"
+msgstr "Nombre a mostrar de WP-Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:205
+msgid "Matomo shortcut"
+msgstr "Atajo de Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:157
+msgid "Matomo default date"
+msgstr "Fecha por defecto de Matomo "
+
+#: classes/WP_Piwik/Admin/Settings.php:124
+msgid "See %sWP-Matomo FAQ%s."
+msgstr "Ver %sFAQ de WP-Matomo%s"
+
+#: classes/WP_Piwik/Admin/Settings.php:123
+msgid "Enter your Matomo Cloud subdomain. It is also part of your URL: https://SUBDOMAIN.matomo.cloud."
+msgstr "Introduce tu subdominio de Matomo Cloud. También es parte de tu URL: https://SUBDOMINIO.matomo.cloud."
+
+#: classes/WP_Piwik/Admin/Settings.php:123
+msgid "Matomo subdomain"
+msgstr "Subdominio de Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:122
+msgid "Innocraft subdomain"
+msgstr "Subdominio de Innocraft"
+
+#: classes/WP_Piwik/Admin/Settings.php:121
+msgid "Matomo path"
+msgstr "Ruta de Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:120
+msgid "Matomo URL"
+msgstr "URL de Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:117
+msgid "Cloud-hosted (InnoCraft Cloud, *.innocraft.cloud)"
+msgstr "Alojado en la nube (InnoCraft Cloud, *.innocraft.cloud)"
+
+#: classes/WP_Piwik/Admin/Settings.php:116
+msgid "Cloud-hosted (Innocraft Cloud, *.matomo.cloud)"
+msgstr "Alojado en la nube (Innocraft Cloud, *.matomo.cloud)"
+
+#: classes/WP_Piwik/Admin/Settings.php:113
+msgid "Disabled (WP-Matomo will not connect to Matomo)"
+msgstr "Desactivar (WP-Matomo no se conectará con Matomo)"
+
+#: classes/WP_Piwik/Admin/Settings.php:112
+msgid "Matomo Mode"
+msgstr "Modo Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:111
+msgid "If you are using a cloud-hosted Matomo by InnoCraft, you can simply use this option. Be carefull to choose the option which fits to your cloud domain (matomo.cloud or innocraft.cloud)."
+msgstr "Si estás usando la solución en la nube de Matomo por InnoCraft puedes simplemente usar esta opción. Ten cuidado de elegir la opción que se ajuste a tu dominio en la nube (matomo.cloud o innocraft.cloud)"
+
+#: classes/WP_Piwik/Admin/Settings.php:106
+msgid "a self-hosted Matomo"
+msgstr "un Matomo auto-alojado"
+
+#: classes/WP_Piwik/Admin/Settings.php:71
+msgid "Connect to Matomo"
+msgstr "Conectarse a Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:58
+msgid "WP-Matomo %s is successfully connected to Matomo %s."
+msgstr "WP-Matomo %sestá correctamente conectado a Matomo %s. "
+
+#: classes/WP_Piwik/Admin/Settings.php:55
+msgid "Thanks for using WP-Matomo!"
+msgstr "¡Gracias por usar WP-Matomo!"
+
+#. Description of the plugin
+msgid "Adds Matomo statistics to your WordPress dashboard and is also able to add the Matomo Tracking Code to your blog."
+msgstr "Añade estadísticas de matomo al escritorio de tu WordPress y también pueede añadir a tu blog el código de seguimiento de Matomo."
+
+#: classes/WP_Piwik/Widget/ItemsCategory.php:11
+msgid "E-Commerce Item Categories"
+msgstr "Categorías de artículos de comercio electrónico"
+
+#: classes/WP_Piwik/Widget/Items.php:31
+#: classes/WP_Piwik/Widget/ItemsCategory.php:31
+msgid "Avg. quantity"
+msgstr "Cantidad promedio"
+
+#: classes/WP_Piwik/Widget/Items.php:30
+#: classes/WP_Piwik/Widget/ItemsCategory.php:30
+msgid "Avg. price"
+msgstr "Precio promedio"
+
+#: classes/WP_Piwik/Widget/Items.php:29
+#: classes/WP_Piwik/Widget/ItemsCategory.php:29
+msgid "Orders"
+msgstr "Pedidos"
+
+#: classes/WP_Piwik/Widget/Items.php:28
+#: classes/WP_Piwik/Widget/ItemsCategory.php:28
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: classes/WP_Piwik/Widget/Items.php:26
+#: classes/WP_Piwik/Widget/ItemsCategory.php:26
+msgid "Label"
+msgstr "Etiqueta"
+
+#: classes/WP_Piwik/Widget/Items.php:11
+msgid "E-Commerce Items"
+msgstr "Artículos de comercio electrónico"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:38
+msgid "Conversion rate (returning visitor)"
+msgstr "Tasa de conversión (visitante recurrente)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:37
+msgid "Revenue (returning visitor)"
+msgstr "Ingresos (visitante recurrente)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:36
+msgid "Visits converted (returning visitor)"
+msgstr "Visitas convertidas (visitante recurrente)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:35
+msgid "Conversions (returning visitor)"
+msgstr "Conversiones (visitante recurrente)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:34
+msgid "Conversion rate (new visitor)"
+msgstr "Tasa de conversión (nuevo visitante)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:33
+msgid "Revenue (new visitor)"
+msgstr "Ingresos (nuevo visitante)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:32
+msgid "Visits converted (new visitor)"
+msgstr "Visitas convertidas (nuevo visitante)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:31
+msgid "Conversions (new visitor)"
+msgstr "Conversiones (nuevo visitante)"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:30
+#: classes/WP_Piwik/Widget/Items.php:32
+#: classes/WP_Piwik/Widget/ItemsCategory.php:32
+msgid "Conversion rate"
+msgstr "Tasa de conversión"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:29
+#: classes/WP_Piwik/Widget/Items.php:27
+#: classes/WP_Piwik/Widget/ItemsCategory.php:27
+msgid "Revenue"
+msgstr "Ingresos"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:28
+msgid "Visits converted"
+msgstr "Visitas convertidas"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:27
+msgid "Conversions"
+msgstr "Conversiones"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:11
+msgid "E-Commerce"
+msgstr "Comercio electrónico"
+
+#: classes/WP_Piwik/Admin/Settings.php:182
+msgid "Enable WP-Matomo dashboard widget &quot;E-commerce&quot;."
+msgstr "Activar el widget de Escritorio de WP-Matomo &quot;E-commerce&quot;."
+
+#: classes/WP_Piwik/Admin/Settings.php:182
+msgid "Dashboard e-commerce"
+msgstr "Tablero de comercio electrónico"
+
+#: classes/WP_Piwik/Admin/Settings.php:167
+msgid "Display e-commerce data on statistics page."
+msgstr "Mostrar datos de comercio electrónico en la página de estadísticas."
+
+#: classes/WP_Piwik/Admin/Settings.php:167
+msgid "Show e-commerce data"
+msgstr "Mostrar datos de comercio electrónico"
+
+#: classes/WP_Piwik/Admin/Settings.php:106
+msgid "a cloud-hosted Matomo by InnoCraft"
+msgstr "una solución alojada en la nube de Matomo por InnoCraft"
+
+#: classes/WP_Piwik/Admin/Settings.php:363
+msgid "Set classes to be treated as outlinks (in addition to piwik_link), divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "Configura las clases que se tratarán como enlaces salientes (además de piwik_link), divididas por una barra vertical (&#124;). Déjalo en blanco para mantener los ajustes por defecto de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:363
+msgid "Set classes to be treated as outlinks"
+msgstr "Establecer clases para que se traten como enlaces externos"
+
+#: classes/WP_Piwik/Admin/Settings.php:361
+#: classes/WP_Piwik/Admin/Settings.php:363
+msgid "See %sMatomo JavaScript Tracking Client reference%s."
+msgstr "Ver las %sreferencias de seguimiento de clientes de JavaScript de Matomo%s."
+
+#: classes/WP_Piwik/Admin/Settings.php:361
+msgid "Set classes to be treated as downloads (in addition to piwik_download), divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "Establecer las clases para que se traten como descargas (además de piwik_download), divididas por una barra vertical (&#124;). Deja en blanco para mantener los ajustes por defecto de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:361
+msgid "Set classes to be treated as downloads"
+msgstr "Establecer clases a ser tratadas como descargas"
+
+#: classes/WP_Piwik/Admin/Settings.php:337
+msgid "Enable DNS prefetch"
+msgstr "Activar la precarga de DNS"
+
+#: classes/WP_Piwik/Admin/Settings.php:253
+msgid "Add annotation on new post of type"
+msgstr "Añadir anotación en el nuevo tipo de contenido"
+
+#: classes/WP_Piwik/Admin/Settings.php:122
+msgid "Enter your InnoCraft Cloud subdomain. It is also part of your URL: https://SUBDOMAIN.innocraft.cloud."
+msgstr "Introduce tu subdominio InnoCraft Cloud. También es parte de tu URL: https://SUBDOMAIN.innocraft.cloud."
+
+#: classes/WP_Piwik/Admin/Settings.php:286
+msgid "When enabled, it will make sure to use the same visitor ID for the same visitor across several domains. This works only when this feature is enabled because the visitor ID is stored in a cookie and cannot be read on the other domain by default. When this feature is enabled, it will append a URL parameter \"pk_vid\" that contains the visitor ID when a user clicks on a URL that belongs to one of your domains. For this feature to work, you also have to configure which domains should be treated as local in your Matomo website settings. This feature requires Matomo 3.0.2."
+msgstr "Cuando está activado se asegura de usar el mismo ID de visitante para el mismo visitante en varios dominios. Esto solo funciona cuando está activa esta característica porque el ID del visitante se almacena en una cookie y no puede leerse por defecto en otro dominio. Cuando esta característica está activada añadirá un parámetro «pk_vid» a la URL que contiene el ID del visitante cuando un usuario hace clic en una URL que pertenezca a uno de tus dominios. Para que funcione esta característica también tienes que configurar qué dominios deberían tratarse como locales en los ajustes de tu web Matomo. Esta característica requiere Matomo 3.0.2. "
+
+#: classes/WP_Piwik/Admin/Settings.php:286
+msgid "Enable cross domain linking"
+msgstr "Activar enlaces cruzados de dominio"
+
+#: classes/WP_Piwik/Admin/Settings.php:133
+msgid "WP-Matomo %s was not able to get sites with at least view access: <br /><code>%s</code>"
+msgstr "WP-Matomo %s no ya podido recuperar los sitios con al menos acceso de visualización: <br /><code>%s</code>"
+
+#: classes/WP_Piwik/Admin/Settings.php:329
+msgid "Disable SSL host verification"
+msgstr "Desactivar la verificación de servidor SSL"
+
+#: classes/WP_Piwik/Admin/Settings.php:302
+msgid "When a user is logged in to WordPress, track their &quot;User ID&quot;. You can select which field from the User's profile is tracked as the &quot;User ID&quot;. When enabled, Tracking based on Email Address is recommended."
+msgstr "Cuando un usuario haya iniciado sesión en WordPress, haz un seguimiento de su &quot; ID de usuario &quot;. Puedes seleccionar qué campo del perfil del usuario se rastreará como &quot; ID de usuario &quot;. Cuando está activado se recomienda el seguimiento basado en la dirección de correo electrónico."
+
+#: classes/WP_Piwik/Admin/Settings.php:301
+msgid "Display Name (Not Recommended!)"
+msgstr "Nombre a mostrar (¡No recomendado!)"
+
+#: classes/WP_Piwik/Admin/Settings.php:300
+msgid "Username"
+msgstr "Nome de usuario"
+
+#: classes/WP_Piwik/Admin/Settings.php:299
+msgid "Email Address"
+msgstr "Dirección de correo electrónico "
+
+#: classes/WP_Piwik/Admin/Settings.php:298
+msgid "WP User ID"
+msgstr "ID de usuario de WP"
+
+#: classes/WP_Piwik/Admin/Settings.php:296
+msgid "User ID Tracking"
+msgstr "Seguimiento de ID de usuario"
+
+#: classes/WP_Piwik/Widget.php:351
+msgid "last 30 days"
+msgstr "últimos 30 días"
+
+#: classes/WP_Piwik/Widget.php:284
+msgid "yesterday"
+msgstr "ayer"
+
+#: classes/WP_Piwik/Widget.php:279
+msgid "last week"
+msgstr "última semana"
+
+#: classes/WP_Piwik/Widget.php:274
+msgid "current week"
+msgstr "esta semana"
+
+#: classes/WP_Piwik/Widget.php:269
+msgid "last month"
+msgstr "último mes"
+
+#: classes/WP_Piwik/Widget.php:264
+msgid "current month"
+msgstr "mes actual"
+
+#: classes/WP_Piwik/Widget.php:259
+msgid "today"
+msgstr "hoy"
+
+#: classes/WP_Piwik/Widget/Pages.php:18
+msgid "Page"
+msgstr "Pagina"
+
+#: classes/WP_Piwik/Admin/Settings.php:64
+msgid "WP-Matomo %s was not able to connect to Matomo using your configuration. During connection the following error occured: <br /><code>%s</code>"
+msgstr "WP-Matomo %s no fue capaz de conectarse a Matomo usando tu configuración. Durante la conexión, ocurrió el siguiente error: <br /><code>%s</code>"
+
+#. Author URI of the plugin
+msgid "https://www.braekling.de"
+msgstr "https://www.braekling.de"
+
+#. Author of the plugin
+msgid "Andr&eacute; Br&auml;kling"
+msgstr "Andr&eacute; Br&auml;kling"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/extend/plugins/wp-piwik/"
+msgstr "https://es.wordpress.org/extend/plugins/wp-piwik/"
+
+#: wp-piwik.php:60
+msgid "WP-Matomo requires at least PHP 5.3. You are using the deprecated version %s. Please update PHP to use WP-Matomo."
+msgstr "WP-Matomo necesita, al menos, PHP 5.3. Estás usando la versión obsoleta %s. Por favor, actualiza PHP para usar WP-Matomo."
+
+#: classes/WP_Piwik.php:1313
+msgid "Cheatin&#8217; uh?"
+msgstr "¿Haciendo trampas?"
+
+#: classes/WP_Piwik.php:1027
+msgid "An error occured"
+msgstr "Ocurrió un error"
+
+#: classes/WP_Piwik.php:270
+msgid "Important"
+msgstr "Importante"
+
+#: classes/WP_Piwik.php:267 classes/WP_Piwik.php:565
+msgid "Settings"
+msgstr "Ajustes"
+
+#: classes/WP_Piwik.php:235
+msgid "Please validate your configuration"
+msgstr "Por favor, valida tu configuración"
+
+#: classes/WP_Piwik.php:235
+msgid "%s updated to %s."
+msgstr "%s actualizado a %s."
+
+#: classes/WP_Piwik.php:201
+msgid "Next you should connect to Matomo"
+msgstr "A continuación, debes conectarte con Matomo"
+
+#: classes/WP_Piwik.php:201
+msgid "%s %s installed."
+msgstr "%s %s instalado."
+
+#: classes/WP_Piwik/Widget.php:310
+msgid "week"
+msgstr "semana"
+
+#: classes/WP_Piwik/Widget.php:173
+msgid "No data available."
+msgstr "No hay datos disponibles."
+
+#: classes/WP_Piwik/Widget.php:113
+msgid "Actions"
+msgstr "Acciones"
+
+#: classes/WP_Piwik/Widget.php:111
+msgid "Hits"
+msgstr "Visitante"
+
+#: classes/WP_Piwik/Widget/Visitors.php:69
+msgid "Page Views"
+msgstr "Páginas Vistas"
+
+#: classes/WP_Piwik/Widget/Visitors.php:69
+msgid "Date"
+msgstr "Fecha"
+
+#: classes/WP_Piwik/Widget/Systems.php:14
+msgid "Operation Systems"
+msgstr "Sistemas operativos"
+
+#: classes/WP_Piwik/Widget/SystemDetails.php:28
+#: classes/WP_Piwik/Widget/Systems.php:28
+msgid "Operation System"
+msgstr "Sistema operativo"
+
+#: classes/WP_Piwik/Widget/SystemDetails.php:14
+msgid "Operation System Details"
+msgstr "Detalles del sistema operativo"
+
+#: classes/WP_Piwik/Widget/Seo.php:13
+msgid "SEO"
+msgstr "SEO"
+
+#: classes/WP_Piwik/Widget/Screens.php:30
+msgid "Resolution"
+msgstr "Resolución"
+
+#: classes/WP_Piwik/Widget/Screens.php:16
+msgid "Resolutions"
+msgstr "Resoluciones"
+
+#: classes/WP_Piwik/Widget/Referrers.php:16
+msgid "Referrers"
+msgstr "Referencias"
+
+#: classes/WP_Piwik/Widget/Post.php:73
+msgid "Max. generation time"
+msgstr "Max. tiempo de generación"
+
+#: classes/WP_Piwik/Widget/Post.php:72
+msgid "Min. generation time"
+msgstr "Min. tiempo de generación"
+
+#: classes/WP_Piwik/Widget.php:109 classes/WP_Piwik/Widget/Plugins.php:25
+#: classes/WP_Piwik/Widget/Visitors.php:69
+msgid "Visits"
+msgstr "Visitas"
+
+#: classes/WP_Piwik/Widget/Plugins.php:25
+msgid "Plugin"
+msgstr "Plugin"
+
+#: classes/WP_Piwik/Widget/Plugins.php:16
+msgid "Plugins"
+msgstr "Plugins"
+
+#: classes/WP_Piwik/Widget/Pages.php:16
+msgid "Pages"
+msgstr "Páginas"
+
+#: classes/WP_Piwik/Widget/Ecommerce.php:40
+#: classes/WP_Piwik/Widget/Overview.php:61 classes/WP_Piwik/Widget/Post.php:77
+msgid "Shortcut"
+msgstr "Enlace directo"
+
+#: classes/WP_Piwik/Widget/Overview.php:60 classes/WP_Piwik/Widget/Post.php:76
+msgid "Max. page views in one visit"
+msgstr "Máximo de páginas vistas durante una visita"
+
+#: classes/WP_Piwik/Widget/Overview.php:60 classes/WP_Piwik/Widget/Post.php:71
+#: classes/WP_Piwik/Widget/Post.php:76
+msgid "Time/visit"
+msgstr "Tiempo/Visita"
+
+#: classes/WP_Piwik/Widget/Overview.php:57 classes/WP_Piwik/Widget/Post.php:70
+msgid "Bounce count"
+msgstr "Número de rebotes"
+
+#: classes/WP_Piwik/Widget/Overview.php:56 classes/WP_Piwik/Widget/Post.php:69
+msgid "Total time spent"
+msgstr "Tiempo total empleado"
+
+#: classes/WP_Piwik/Widget/Overview.php:55 classes/WP_Piwik/Widget/Post.php:68
+msgid "Page views"
+msgstr "Páginas vistas"
+
+#: classes/WP_Piwik/Widget/Overview.php:53 classes/WP_Piwik/Widget/Post.php:63
+#: classes/WP_Piwik/Widget/Post.php:65
+msgid "Unique visitors"
+msgstr "Visitantes únicos"
+
+#: classes/WP_Piwik/Widget/Overview.php:19 classes/WP_Piwik/Widget/Post.php:20
+msgid "Overview"
+msgstr "Resumen"
+
+#: classes/WP_Piwik/Widget/Noresult.php:25
+#: classes/WP_Piwik/Widget/Search.php:25
+#: classes/WP_Piwik/Widget/Visitors.php:69
+msgid "Bounced"
+msgstr "Rebotado"
+
+#: classes/WP_Piwik/Widget/Noresult.php:25
+#: classes/WP_Piwik/Widget/Search.php:25
+msgid "Requests"
+msgstr "Peticiones"
+
+#: classes/WP_Piwik/Widget/Noresult.php:25
+#: classes/WP_Piwik/Widget/Search.php:25
+msgid "Keyword"
+msgstr "Palabra clave"
+
+#: classes/WP_Piwik/Widget/Noresult.php:16
+#: classes/WP_Piwik/Widget/Search.php:16
+msgid "Site Search"
+msgstr "Búsqueda del sitio"
+
+#: classes/WP_Piwik/Widget/Keywords.php:16
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: classes/WP_Piwik/Widget/Country.php:32
+msgid "Country"
+msgstr "País"
+
+#: classes/WP_Piwik/Widget/Country.php:18
+msgid "Countries"
+msgstr "Países"
+
+#: classes/WP_Piwik/Widget/Overview.php:51 classes/WP_Piwik/Widget/Post.php:61
+#: classes/WP_Piwik/Widget/Visitors.php:21
+msgid "Visitors"
+msgstr "Visitantes"
+
+#: classes/WP_Piwik/Widget/Browsers.php:18
+msgid "Browsers"
+msgstr "Navegadores"
+
+#: classes/WP_Piwik/Widget/BrowserDetails.php:60
+#: classes/WP_Piwik/Widget/Browsers.php:60 classes/WP_Piwik/Widget/City.php:60
+#: classes/WP_Piwik/Widget/Country.php:60 classes/WP_Piwik/Widget/Models.php:60
+#: classes/WP_Piwik/Widget/Screens.php:58
+#: classes/WP_Piwik/Widget/SystemDetails.php:56
+#: classes/WP_Piwik/Widget/Systems.php:56 classes/WP_Piwik/Widget/Types.php:67
+msgid "Others"
+msgstr "Otros"
+
+#: classes/WP_Piwik/Widget/BrowserDetails.php:32
+#: classes/WP_Piwik/Widget/Browsers.php:32 classes/WP_Piwik/Widget/City.php:32
+#: classes/WP_Piwik/Widget/Country.php:32 classes/WP_Piwik/Widget/Models.php:32
+#: classes/WP_Piwik/Widget/Plugins.php:25
+#: classes/WP_Piwik/Widget/Screens.php:30
+#: classes/WP_Piwik/Widget/SystemDetails.php:28
+#: classes/WP_Piwik/Widget/Systems.php:28 classes/WP_Piwik/Widget/Types.php:35
+msgid "Percent"
+msgstr "Porcentaje"
+
+#: classes/WP_Piwik/Widget.php:107
+#: classes/WP_Piwik/Widget/BrowserDetails.php:32
+#: classes/WP_Piwik/Widget/Browsers.php:32 classes/WP_Piwik/Widget/City.php:32
+#: classes/WP_Piwik/Widget/Country.php:32 classes/WP_Piwik/Widget/Models.php:32
+#: classes/WP_Piwik/Widget/Screens.php:30
+#: classes/WP_Piwik/Widget/SystemDetails.php:28
+#: classes/WP_Piwik/Widget/Systems.php:28 classes/WP_Piwik/Widget/Types.php:35
+#: classes/WP_Piwik/Widget/Visitors.php:69
+msgid "Unique"
+msgstr "Único"
+
+#: classes/WP_Piwik/Widget/BrowserDetails.php:32
+#: classes/WP_Piwik/Widget/Browsers.php:32
+msgid "Browser"
+msgstr "Navegador"
+
+#: classes/WP_Piwik/Widget.php:98 classes/WP_Piwik/Widget/BrowserDetails.php:30
+#: classes/WP_Piwik/Widget/Browsers.php:30 classes/WP_Piwik/Widget/Chart.php:17
+#: classes/WP_Piwik/Widget/City.php:30 classes/WP_Piwik/Widget/Country.php:30
+#: classes/WP_Piwik/Widget/Ecommerce.php:23
+#: classes/WP_Piwik/Widget/Items.php:23
+#: classes/WP_Piwik/Widget/ItemsCategory.php:23
+#: classes/WP_Piwik/Widget/Models.php:30
+#: classes/WP_Piwik/Widget/Noresult.php:23
+#: classes/WP_Piwik/Widget/Overview.php:27
+#: classes/WP_Piwik/Widget/Plugins.php:23 classes/WP_Piwik/Widget/Post.php:27
+#: classes/WP_Piwik/Widget/Screens.php:28 classes/WP_Piwik/Widget/Search.php:23
+#: classes/WP_Piwik/Widget/Seo.php:20
+#: classes/WP_Piwik/Widget/SystemDetails.php:26
+#: classes/WP_Piwik/Widget/Systems.php:26 classes/WP_Piwik/Widget/Types.php:33
+#: classes/WP_Piwik/Widget/Visitors.php:46
+msgid "Piwik error"
+msgstr "Error de Piwik"
+
+#: classes/WP_Piwik/Widget/BrowserDetails.php:18
+msgid "Browser Details"
+msgstr "Detalles del navegador"
+
+#: classes/WP_Piwik/Template/MetaBoxCustomVars.php:30
+msgid "Set custom variables for a page view"
+msgstr "Establecer variables personalizadas para una vista de página"
+
+#: classes/WP_Piwik/Template/MetaBoxCustomVars.php:21
+msgid "Value"
+msgstr "Valor"
+
+#: classes/WP_Piwik/Template/MetaBoxCustomVars.php:21
+msgid "Name"
+msgstr "Nombre"
+
+#: classes/WP_Piwik/Template/MetaBoxCustomVars.php:10
+msgid "Piwik Custom Variables"
+msgstr "Variables personalizadas Piwik"
+
+#: classes/WP_Piwik/Request/Php.php:44
+msgid "Class Piwik\\API\\Request does not exists."
+msgstr "Clase Piwik \\ API \\ La solicitud no existe."
+
+#: classes/WP_Piwik/Request/Php.php:41
+msgid "Class Piwik\\FrontController does not exists."
+msgstr "La clase Piwik \\ FrontController no existe."
+
+#: classes/WP_Piwik/Request/Php.php:29
+msgid "realpath() returns false"
+msgstr "realpath() devuelve falso"
+
+#: classes/WP_Piwik/Request/Php.php:29
+msgid "Could not resolve"
+msgstr "No se pudo resolver"
+
+#: classes/WP_Piwik/Admin/Statistics.php:21
+msgid "Currently shown stats:"
+msgstr "Estadísticas mostradas actualmente:"
+
+#: classes/WP_Piwik/Admin/Statistics.php:12
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:84
+msgid "Site not created yet."
+msgstr "Sitio aún no creado."
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:37
+msgid "Site ID (Piwik)"
+msgstr "ID del sitio (Piwik)"
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:36
+msgid "URL"
+msgstr "URL"
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:35
+msgid "Title"
+msgstr "Título"
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:34
+msgid "Blog ID"
+msgstr "ID de blog"
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:29
+msgid "No site configured yet."
+msgstr "No hay ningún sitio configurado todavía."
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:23
+msgid "sites"
+msgstr "sitios"
+
+#: classes/WP_Piwik/Admin/Sitebrowser.php:22
+msgid "site"
+msgstr "sitio"
+
+#: classes/WP_Piwik/Admin/Settings.php:685
+msgid "Cache cleared."
+msgstr "Caché vaciada."
+
+#: classes/WP_Piwik/Admin/Settings.php:669
+msgid "Settings cleared (except connection settings)."
+msgstr "Ajustes borrados (excepto los ajustes de conexión)."
+
+#: classes/WP_Piwik/Admin/Settings.php:618
+msgid "Latest support threads on WordPress.org"
+msgstr "Últimos hilos de soporte en WordPress.org"
+
+#: classes/WP_Piwik/Admin/Settings.php:616
+msgid "Are you sure you want to clear all settings?"
+msgstr "¿Estás seguro de que quieres borrar todos los ajustes?"
+
+#: classes/WP_Piwik/Admin/Settings.php:615
+msgid "Clear cache"
+msgstr "Vaciar caché"
+
+#: classes/WP_Piwik/Admin/Settings.php:614
+msgid "Sitebrowser"
+msgstr "Navegador"
+
+#: classes/WP_Piwik/Admin/Settings.php:613
+msgid "Run testscript"
+msgstr "Comenzar testscript"
+
+#: classes/WP_Piwik/Admin/Settings.php:611
+msgid "Tools"
+msgstr "Herramientas"
+
+#: classes/WP_Piwik/Admin/Settings.php:607
+msgid "Determined Matomo base URL is"
+msgstr "La URL base determinada por Matomo es"
+
+#: classes/WP_Piwik/Admin/Settings.php:605
+msgid "is used."
+msgstr "está usado."
+
+#: classes/WP_Piwik/Admin/Settings.php:603
+msgid "enabled"
+msgstr "activado"
+
+#: classes/WP_Piwik/Admin/Settings.php:601
+msgid "allow_url_fopen is"
+msgstr "allow_url_fopen es"
+
+#: classes/WP_Piwik/Admin/Settings.php:598
+msgid "available"
+msgstr "disponible"
+
+#: classes/WP_Piwik/Admin/Settings.php:597
+#: classes/WP_Piwik/Admin/Settings.php:602
+msgid "not"
+msgstr "no"
+
+#: classes/WP_Piwik/Admin/Settings.php:596
+msgid "cURL is"
+msgstr "cURL es"
+
+#: classes/WP_Piwik/Admin/Settings.php:593
+msgid "Either allow_url_fopen has to be enabled <em>or</em> cURL has to be available:"
+msgstr "Se debe activar allow_url_fopen <em>o</em> cURL debe estar disponible:"
+
+#: classes/WP_Piwik/Admin/Settings.php:592
+msgid "Debugging"
+msgstr "Depuración"
+
+#: classes/WP_Piwik/Admin/Settings.php:589
+msgid "The best place to get help:"
+msgstr "El mejor lugar para obtener ayuda:"
+
+#: classes/WP_Piwik/Admin/Settings.php:580
+msgid "Thank <strong>you</strong> for using my plugin. It is the best commendation if my piece of code is really used!"
+msgstr "Gracias a <strong>ti</strong>por utilizar mi plugin. ¡Es el mayor elogio que mi plugin sea realmente utilizado!"
+
+#: classes/WP_Piwik/Admin/Settings.php:579
+msgid "Thank you very much, all users who send me mails containing criticism, commendation, feature requests and bug reports! You help me to make WP-Matomo much better."
+msgstr "Muchísimas gracias a todos los usuarios que me habéis enviado emails con críticas, recomendaciones, sugerencias de mejoras y reportes de errores. Me ayudáis a hacer WP-Matomo mucho mejor."
+
+#: classes/WP_Piwik/Admin/Settings.php:578
+msgid "Thank you very much"
+msgstr "Muchas gracias"
+
+#: classes/WP_Piwik/Admin/Settings.php:549
+#: classes/WP_Piwik/Admin/Settings.php:590
+msgid "Please don't forget to vote the compatibility at the"
+msgstr "Por favor no te olvides de votar la compatibilidad en"
+
+#: classes/WP_Piwik/Admin/Settings.php:546
+msgid "My Amazon.de wishlist"
+msgstr "Mi lista en Amazon.de"
+
+#: classes/WP_Piwik/Admin/Settings.php:527
+msgid "If you like WP-Matomo, you can support its development by a donation:"
+msgstr "Si te gusta WP-Matomo, puedes añadir a su desarrollo con una donación:"
+
+#: classes/WP_Piwik/Admin/Settings.php:524
+msgid "Donate"
+msgstr "Donar"
+
+#: classes/WP_Piwik/Admin/Settings.php:359
+msgid "Replace Matomo's default file extensions for download tracking, divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "Reemplaza las extensiones de archivo predeterminadas de Matomo para el seguimiento de descargas, separadas por una barra vertical (&#124;). Déjalo en blanco para mantener los ajustes predeterminados de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:359
+msgid "Define all file types for download tracking"
+msgstr "Definir todos los tipos de archivos para el seguimiento de descargas"
+
+#: classes/WP_Piwik/Admin/Settings.php:357
+msgid "Choose if you want to get an update notice if WP-Matomo is updated."
+msgstr "Elegir si quieres obtener una aviso de actualización si se actualiza WP-Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:355
+msgid "Show only if WP-Matomo is updated and settings were changed"
+msgstr "Mostrar solo si se actualiza WP-Matomo y se cambian los ajustes"
+
+#: classes/WP_Piwik/Admin/Settings.php:354
+msgid "Show always if WP-Matomo is updated"
+msgstr "Mostrar siempre que se actualice WP-Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:353
+msgid "Update notice"
+msgstr "Aviso de actualización"
+
+#: classes/WP_Piwik/Admin/Settings.php:349
+msgid "Choose if you want to explicitly force Matomo to use HTTP or HTTPS. Does not work with a CDN URL."
+msgstr "Elige si quieres forzar explícitamente a Matomo a utilizar HTTP o HTTPS. No funciona con una dirección URL de CDN."
+
+#: classes/WP_Piwik/Admin/Settings.php:348
+msgid "https (SSL)"
+msgstr "https (SSL)"
+
+#: classes/WP_Piwik/Admin/Settings.php:347
+msgid "http"
+msgstr "http"
+
+#: classes/WP_Piwik/Admin/Settings.php:346
+msgid "Disabled (default)"
+msgstr "Desactivado (por defecto)"
+
+#: classes/WP_Piwik/Admin/Settings.php:345
+msgid "Force Matomo to use a specific protocol"
+msgstr "Forzar a Matomo a usar un protocolo específico"
+
+#: classes/WP_Piwik/Admin/Settings.php:343
+msgid "CDN URL (SSL)"
+msgstr "URL de la CDN (SSL)"
+
+#: classes/WP_Piwik/Admin/Settings.php:341
+msgid "CDN URL"
+msgstr "URL de la CDN"
+
+#: classes/WP_Piwik/Admin/Settings.php:339
+msgid "Add data-cfasync=false"
+msgstr "Añadir data-cfasync=false"
+
+#: classes/WP_Piwik/Admin/Settings.php:335
+msgid "Specific user agent"
+msgstr "Agente de usuario específico"
+
+#: classes/WP_Piwik/Admin/Settings.php:333
+msgid "Define a specific user agent"
+msgstr "Definir un agente de usuario específico"
+
+#: classes/WP_Piwik/Admin/Settings.php:332
+msgid "empty"
+msgstr "vacío"
+
+#: classes/WP_Piwik/Admin/Settings.php:332
+msgid "Use the PHP default user agent"
+msgstr "Utiliza el agente de usuario por defecto de PHP"
+
+#: classes/WP_Piwik/Admin/Settings.php:331
+msgid "User agent"
+msgstr "Agente de usuario"
+
+#: classes/WP_Piwik/Admin/Settings.php:328
+#: classes/WP_Piwik/Admin/Settings.php:329
+msgid "not recommended"
+msgstr "no recomendado"
+
+#: classes/WP_Piwik/Admin/Settings.php:328
+msgid "Disable SSL peer verification"
+msgstr "Desactivar la verificación de pares SSL"
+
+#: classes/WP_Piwik/Admin/Settings.php:326
+msgid "Connection timeout"
+msgstr "El tiempo de conexión caducó"
+
+#: classes/WP_Piwik/Admin/Settings.php:322
+msgid "Use set_time_limit(0) if stats page causes a time out."
+msgstr "Usar set_time_limit(0) si la página de estadísticas provoca un tiempo de espera."
+
+#: classes/WP_Piwik/Admin/Settings.php:322
+msgid "Disable time limit"
+msgstr "Desactivar el límite de tiempo"
+
+#: classes/WP_Piwik/Admin/Settings.php:320
+msgid "Choose whether WP-Matomo should use POST or GET in HTTP or Cloud mode."
+msgstr "Elige si WP-Matomo debería usar POST o GET en el modo Cloud o HTTP."
+
+#: classes/WP_Piwik/Admin/Settings.php:319
+#: classes/WP_Piwik/Admin/Settings.php:605
+msgid "GET"
+msgstr "GET"
+
+#: classes/WP_Piwik/Admin/Settings.php:318
+#: classes/WP_Piwik/Admin/Settings.php:605
+msgid "POST"
+msgstr "POST"
+
+#: classes/WP_Piwik/Admin/Settings.php:317
+msgid "HTTP method"
+msgstr "Método HTTP"
+
+#: classes/WP_Piwik/Admin/Settings.php:315
+msgid "Choose whether WP-Matomo should use cURL or fopen to connect to Matomo in HTTP or Cloud mode."
+msgstr "Elige si WP-Matomo debería usar cURL o fopen para conectarse a Matomo en el modo HTTP o Cloud."
+
+#: classes/WP_Piwik/Admin/Settings.php:314
+#: classes/WP_Piwik/Admin/Settings.php:605
+msgid "fopen"
+msgstr "fopen"
+
+#: classes/WP_Piwik/Admin/Settings.php:313
+#: classes/WP_Piwik/Admin/Settings.php:605
+msgid "cURL"
+msgstr "cURL"
+
+#: classes/WP_Piwik/Admin/Settings.php:312
+msgid "HTTP connection via"
+msgstr "Conexión HTTP a través de"
+
+#: classes/WP_Piwik/Admin/Settings.php:309
+msgid "Cache API calls, which not contain today's values, for a week."
+msgstr "Las llamadas a la API de caché, que no contienen los valores de hoy, durante una semana."
+
+#: classes/WP_Piwik/Admin/Settings.php:309
+msgid "Enable cache"
+msgstr "Activar caché"
+
+#: classes/WP_Piwik/Admin/Settings.php:307
+msgid "Usually, you do not need to change these settings. If you want to do so, you should know what you do or you got an expert's advice."
+msgstr "Por lo general, no es necesario cambiar estos ajustes. Si deseas hacerlo, debes saber lo que hace o debes obtener el asesoramiento de un experto."
+
+#: classes/WP_Piwik/Admin/Settings.php:294
+msgid "Enable a heartbeat timer to get more accurate visit lengths by sending periodical HTTP ping requests as long as the site is opened. Enter the time between the pings in seconds (Matomo default: 15) to enable or 0 to disable this feature. <strong>Note:</strong> This will cause a lot of additional HTTP requests on your site."
+msgstr "Activa un temporizador de heartbeat para obtener de manera más precisa la duración de las visitas enviando peticiones ping HTTP periódicas mientras el sitio esté abierto. Introdue el tiempo entre los pings en segundos (Por defecto de Matomo: 15) para activar esta característica o 0 para desactivarla. <strong>Nota:</strong> Esto generará un montón de peticiones HTTP adicionales en tu sitio."
+
+#: classes/WP_Piwik/Admin/Settings.php:294
+msgid "Enable heartbeat timer"
+msgstr "Activar temporizador heartbeat"
+
+#: classes/WP_Piwik/Admin/Settings.php:292
+msgid "Keyword: post name."
+msgstr "Palabra clave: nombre de la entrada."
+
+#: classes/WP_Piwik/Admin/Settings.php:292
+msgid "RSS feed campaign"
+msgstr "Feed RSS de la campaña"
+
+#: classes/WP_Piwik/Admin/Settings.php:290
+msgid "Track RSS feed links as campaign"
+msgstr "Seguimiento de los enlaces de los feed RSS como campaña"
+
+#: classes/WP_Piwik/Admin/Settings.php:288
+msgid "Enable to track posts in feeds via tracking pixel."
+msgstr "Actívalo para realizar un seguimiento de las publicaciones de los feeds mediante píxel de seguimiento."
+
+#: classes/WP_Piwik/Admin/Settings.php:288
+msgid "Track RSS feeds"
+msgstr "Seguimiento de feeds RSS"
+
+#: classes/WP_Piwik/Admin/Settings.php:284
+msgid "Adds *.-prefix to tracked domain."
+msgstr "Añade prefijo *.- al dominio seguido."
+
+#: classes/WP_Piwik/Admin/Settings.php:284
+msgid "Do not count subdomains as outlink"
+msgstr "No contar subdominios como enlace saliente"
+
+#: classes/WP_Piwik/Admin/Settings.php:282
+msgid "Adds *.-prefix to cookie domain."
+msgstr "Añade el prefijo *.- a las las cookies del dominio."
+
+#: classes/WP_Piwik/Admin/Settings.php:282
+msgid "Track subdomains in the same website"
+msgstr "Seguimiento de subdominios de la misma web"
+
+#: classes/WP_Piwik/Admin/Settings.php:280
+msgid "Choose users by user role you do <strong>not</strong> want to track."
+msgstr "Selecciona, por el perfil de usuario, los usuarios sobre los cuales <strong>no</strong> quieres hacer seguimiento."
+
+#: classes/WP_Piwik/Admin/Settings.php:276
+msgid "Tracking filter"
+msgstr "Filtro de seguimiento"
+
+#: classes/WP_Piwik/Admin/Settings.php:273
+msgid "Enable to track users on admin pages (remember to configure the tracking filter appropriately)."
+msgstr "Activar el seguimiento de los usuarios en las páginas de administración (recuerda que debes configurar el filtro de seguimiento apropiado)."
+
+#: classes/WP_Piwik/Admin/Settings.php:273
+msgid "Track admin pages"
+msgstr "Hacer seguimiento de las páginas administración"
+
+#: classes/WP_Piwik/Admin/Settings.php:271
+msgid "Referral timeout (seconds)"
+msgstr "Tiempo de espera de referidos (segundos)"
+
+#: classes/WP_Piwik/Admin/Settings.php:269
+msgid "Session timeout (seconds)"
+msgstr "Tiempo de espera de sesión (segundos)"
+
+#: classes/WP_Piwik/Admin/Settings.php:267
+msgid "Visitor timeout (seconds)"
+msgstr "Tiempo de espera para visitantes (segundos)"
+
+#: classes/WP_Piwik/Admin/Settings.php:265
+msgid "You can limit the cookie lifetime to avoid tracking your users over a longer period as necessary."
+msgstr "Puedes limitar tanto como sea necesario la duración de la cookie para evitar el seguimiento de sus usuarios durante un período más largo."
+
+#: classes/WP_Piwik/Admin/Settings.php:265
+msgid "Limit cookie lifetime"
+msgstr "Límite de duración de la cookie"
+
+#: classes/WP_Piwik/Admin/Settings.php:263
+msgid "Disable all tracking cookies for a visitor."
+msgstr "Desactivar todas las cookies de rastreo para un visitante."
+
+#: classes/WP_Piwik/Admin/Settings.php:263
+msgid "Disable cookies"
+msgstr "Desactivar cookies"
+
+#: classes/WP_Piwik/Admin/Settings.php:261
+msgid "Add file extensions for download tracking, divided by a vertical bar (&#124;)."
+msgstr "Añade las extensiones de archivo a las que hacer el seguimiento de descargas, separadas por una barra vertical (&#124;)."
+
+#: classes/WP_Piwik/Admin/Settings.php:261
+msgid "Add new file types for download tracking"
+msgstr "Añadir nuevos tipos de archivos para el seguimiento de descargas"
+
+#: classes/WP_Piwik/Admin/Settings.php:259
+msgid " Show a &quot;custom variables&quot; edit box on post edit page."
+msgstr " Mostrar unas &quot; variables personalizadas &quot; al cuadro de edición en la página de edición posterior."
+
+#: classes/WP_Piwik/Admin/Settings.php:259
+msgid "Show custom variables box"
+msgstr "Mostrar cuadro de variables personalizadas"
+
+#: classes/WP_Piwik/Admin/Settings.php:250
+msgid "WP-Matomo can automatically add a 404-category to track 404-page-visits."
+msgstr "WP-Matomo puede añadir automáticamente una categoría-404 para hacer el seguimiento de los errores 404"
+
+#: classes/WP_Piwik/Admin/Settings.php:250
+msgid "Track 404"
+msgstr "Seguimiento de errores 404"
+
+#: classes/WP_Piwik/Admin/Settings.php:248
+msgid "Use Matomo's advanced Site Search Analytics feature."
+msgstr "Usa la función avanzada de análisis de búsqueda de sitios de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:248
+msgid "Track search"
+msgstr "Seguimiento de búsquedas"
+
+#: classes/WP_Piwik/Admin/Settings.php:246
+#: classes/WP_Piwik/Admin/Settings.php:248
+#: classes/WP_Piwik/Admin/Settings.php:257
+#: classes/WP_Piwik/Admin/Settings.php:259
+#: classes/WP_Piwik/Admin/Settings.php:261
+#: classes/WP_Piwik/Admin/Settings.php:282
+#: classes/WP_Piwik/Admin/Settings.php:284
+#: classes/WP_Piwik/Admin/Settings.php:290
+#: classes/WP_Piwik/Admin/Settings.php:359
+msgid "See %sMatomo documentation%s."
+msgstr "Consulta la %sdocumentación de Matomo%s."
+
+#: classes/WP_Piwik/Admin/Settings.php:246
+msgid "Content tracking allows you to track interaction with the content of a web page or application."
+msgstr "El seguimiento de contenido permite seguir la interacción con el contenido de una web o aplicación."
+
+#: classes/WP_Piwik/Admin/Settings.php:245
+msgid "Track only visible content blocks"
+msgstr "Realizar seguimiento sólo de bloques de contenido visibles"
+
+#: classes/WP_Piwik/Admin/Settings.php:244
+msgid "Track all content blocks"
+msgstr "Realizar seguimiento de todos los bloques de contenido"
+
+#: classes/WP_Piwik/Admin/Settings.php:242
+msgid "Enable content tracking"
+msgstr "Activar el seguimiento de contenido"
+
+#: classes/WP_Piwik/Admin/Settings.php:240
+msgid "Enable tracking for visitors without JavaScript (not recommended)."
+msgstr "Activar el seguimiento para visitantes sin JavaScript (no recomendado)."
+
+#: classes/WP_Piwik/Admin/Settings.php:240
+msgid "Add rec parameter to noscript code"
+msgstr "Añade el parámetro rec al código de noscript"
+
+#: classes/WP_Piwik/Admin/Settings.php:238
+#: classes/WP_Piwik/Admin/Settings.php:240
+msgid "Disabled in proxy mode."
+msgstr "Desactivado en el modo proxy."
+
+#: classes/WP_Piwik/Admin/Settings.php:238
+msgid "Adds the &lt;noscript&gt; code to your footer."
+msgstr "Añade el código &lt;noscript&gt; en tu pie de página."
+
+#: classes/WP_Piwik/Admin/Settings.php:238
+msgid "Add &lt;noscript&gt;"
+msgstr "Añadir &lt;noscript&gt;"
+
+#: classes/WP_Piwik/Admin/Settings.php:236
+msgid "Noscript code"
+msgstr "Código de noscript"
+
+#: classes/WP_Piwik/Admin/Settings.php:234
+msgid "Choose whether the JavaScript code is added to the footer or the header."
+msgstr "Elige si el código JavaScript se añade al pie de página o en la cabecera."
+
+#: classes/WP_Piwik/Admin/Settings.php:233
+msgid "Header"
+msgstr "Cabecera"
+
+#: classes/WP_Piwik/Admin/Settings.php:232
+msgid "Footer"
+msgstr "Pie de página"
+
+#: classes/WP_Piwik/Admin/Settings.php:231
+msgid "JavaScript code position"
+msgstr "Posición del código JavaScript"
+
+#: classes/WP_Piwik/Admin/Settings.php:229
+msgid "Tracking code"
+msgstr "Código de seguimiento"
+
+#: classes/WP_Piwik/Admin/Settings.php:221
+msgid "Add tracking code"
+msgstr "Añadir código de seguimiento"
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "Use the placeholder {ID} to add the Matomo site ID."
+msgstr "Usa el marcador de posición {ID} para añadir el ID de sitio de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "Enter your own tracking code manually. You can choose one of the prior options, pre-configure your tracking code and switch to manually editing at last."
+msgstr "Introduce tu propio código de seguimiento de forma manual. Puedes elegir una de las opciones anteriores, pre-configurar el código de seguimiento y cambiar después a la edición manual."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+#: classes/WP_Piwik/Admin/Settings.php:226
+msgid "Enter manually"
+msgstr "Introducir manualmente"
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "Use this tracking code to not reveal the Matomo server URL."
+msgstr "Usa este código de seguimiento para no revelar la URL del servidor de Matomo."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+#: classes/WP_Piwik/Admin/Settings.php:225
+msgid "Use proxy script"
+msgstr "Usar script proxy"
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "See %sreadme file%s."
+msgstr "Ver el archivo %sreadme%s."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "You can choose this tracking code, to deliver a minified proxy code and to avoid using the files called piwik.js or piwik.php."
+msgstr "Puedes elegir este código de seguimiento para entregar un código proxy minimizado y evitar el uso de los archivos llamados piwik.js o piwik.php."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+#: classes/WP_Piwik/Admin/Settings.php:224
+msgid "Use js/index.php"
+msgstr "Utilizar js/index.php"
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+#: classes/WP_Piwik/Admin/Settings.php:223
+msgid "Default tracking"
+msgstr "Seguimiento por defecto"
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "WP-Matomo will not add the tracking code. Use this, if you want to add the tracking code to your template files or you use another plugin to add the tracking code."
+msgstr "WP-Matomo no añadirá el código de seguimiento. Utiliza esto si quieres añadir el código de seguimiento a tus archivos de plantilla o utilizar otro plugin para añadir el código de seguimiento."
+
+#: classes/WP_Piwik/Admin/Settings.php:220
+msgid "You can choose between four tracking code modes:"
+msgstr "Puedes elegir entre cuatro modos de código de seguimiento:"
+
+#: classes/WP_Piwik/Admin/Settings.php:209
+msgid "Enable shortcodes in post or page content."
+msgstr "Activar shortcodes en el contenido de la entrada o página."
+
+#: classes/WP_Piwik/Admin/Settings.php:209
+msgid "Enable shortcodes"
+msgstr "Activar shortcodes"
+
+#: classes/WP_Piwik/Admin/Settings.php:207
+msgid "Plugin name shown in WordPress."
+msgstr "Nombre del plugin mostrado en WordPress."
+
+#: classes/WP_Piwik/Admin/Settings.php:205
+msgid "Display a shortcut to Matomo itself."
+msgstr "Mostar un enlace directo al propio Matomo"
+
+#: classes/WP_Piwik/Admin/Settings.php:202
+msgid "Show stats about single posts at the post edit admin page."
+msgstr "Mostrar estadísticas sobre publicaciones individuales en la página de administración de la publicación de publicaciones."
+
+#: classes/WP_Piwik/Admin/Settings.php:195
+msgid "Show per post stats"
+msgstr "Mostrar estadísticas por publicación"
+
+#: classes/WP_Piwik/Admin/Settings.php:193
+msgid "Choose user roles allowed to see the statistics page."
+msgstr "Selecciona los perfiles de usuario que pueden acceder a las estadísticas."
+
+#: classes/WP_Piwik/Admin/Settings.php:186
+msgid "Display stats to"
+msgstr "Mostrar estadísticas a"
+
+#: classes/WP_Piwik/Admin/Settings.php:184
+msgid "Display a last 30 days visitor graph on WordPress' toolbar."
+msgstr "Muestra un gráfico de los últimos 30 días en la barra de herramientas de WordPress."
+
+#: classes/WP_Piwik/Admin/Settings.php:184
+msgid "Show graph on WordPress Toolbar"
+msgstr "Mostrar gráfico en la barra de herramientas de WordPress"
+
+#: classes/WP_Piwik/Admin/Settings.php:180
+msgid "Enable WP-Matomo dashboard widget &quot;SEO&quot;."
+msgstr "Activar el widget de escritorio de WP-Matomo &quot;SEO&quot;."
+
+#: classes/WP_Piwik/Admin/Settings.php:180
+msgid "Dashboard SEO"
+msgstr "Escritorio SEO"
+
+#: classes/WP_Piwik/Admin/Settings.php:178
+msgid "Enable WP-Matomo dashboard widget &quot;Graph&quot;."
+msgstr "Activar el widget de Escritorio de WP-Matomo &quot;Gráficos&quot;."
+
+#: classes/WP_Piwik/Admin/Settings.php:178
+msgid "Dashboard graph"
+msgstr "Graficos en el escritorio"
+
+#: classes/WP_Piwik/Admin/Settings.php:176
+msgid "Enable WP-Matomo dashboard widget &quot;Overview&quot;."
+msgstr "Activar el widget de escritorio de WP-Matomo &quot;Vistazo rápido&quot;."
+
+#: classes/WP_Piwik/Admin/Settings.php:173
+#: classes/WP_Piwik/Admin/Settings.php:199
+msgid "Last 30 days"
+msgstr "Últimos 30 días"
+
+#: classes/WP_Piwik/Admin/Settings.php:170
+#: classes/WP_Piwik/Admin/Settings.php:196
+#: classes/WP_Piwik/Admin/Settings.php:220
+#: classes/WP_Piwik/Admin/Settings.php:222
+#: classes/WP_Piwik/Admin/Settings.php:243
+#: classes/WP_Piwik/Admin/Settings.php:297
+#: classes/WP_Piwik/Admin/Settings.php:356
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: classes/WP_Piwik/Admin/Settings.php:169
+msgid "Dashboard overview"
+msgstr "Vistazo rápido en el escritorio"
+
+#: classes/WP_Piwik/Admin/Settings.php:166
+#: classes/WP_Piwik/Admin/Settings.php:180
+msgid "Slow!"
+msgstr "¡Lento!"
+
+#: classes/WP_Piwik/Admin/Settings.php:166
+msgid "Display SEO ranking data on statistics page."
+msgstr "Muestra los datos del posicionamiento SEO en la página de estadísticas."
+
+#: classes/WP_Piwik/Admin/Settings.php:166
+msgid "Show SEO data"
+msgstr "Mostrar datos de SEO"
+
+#: classes/WP_Piwik/Admin/Settings.php:164
+msgid "Default date shown on statistics page."
+msgstr "Fecha por defecto mostrada en la página de estadísticas."
+
+#: classes/WP_Piwik/Admin/Settings.php:163
+msgid "Last week"
+msgstr "Última semana"
+
+#: classes/WP_Piwik/Admin/Settings.php:162
+msgid "Current week"
+msgstr "Semana actual"
+
+#: classes/WP_Piwik/Admin/Settings.php:161
+msgid "Last month"
+msgstr "Último mes"
+
+#: classes/WP_Piwik/Admin/Settings.php:160
+msgid "Current month"
+msgstr "Mes actual"
+
+#: classes/WP_Piwik/Admin/Settings.php:159
+#: classes/WP_Piwik/Admin/Settings.php:171
+#: classes/WP_Piwik/Admin/Settings.php:197
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: classes/WP_Piwik/Admin/Settings.php:158
+#: classes/WP_Piwik/Admin/Settings.php:172
+#: classes/WP_Piwik/Admin/Settings.php:198
+msgid "Today"
+msgstr "Hoy"
+
+#: classes/WP_Piwik/Admin/Settings.php:148
+msgid "Select site"
+msgstr "Seleccionar sitio"
+
+#: classes/WP_Piwik/Admin/Settings.php:143
+msgid "Determined site"
+msgstr "Sitio determinado"
+
+#: classes/WP_Piwik/Admin/Settings.php:129
+msgid "Check this to automatically choose your blog from your Matomo sites by URL. If your blog is not added to Matomo yet, WP-Matomo will add a new site."
+msgstr "Selecciona esto para elegir automáticamente tu blog desde el listado de sitios de Matomo por la dirección. Si tu blog no está todavía añadido en Matomo, WP-Matomo añadirá un sitio nuevo."
+
+#: classes/WP_Piwik/Admin/Settings.php:129
+msgid "Auto config"
+msgstr "Configuración automática"
+
+#: classes/WP_Piwik/Admin/Settings.php:124
+msgid "Enter your Matomo auth token here. It is an alphanumerical code like 0a1b2c34d56e78901fa2bc3d45678efa."
+msgstr "Introduce aquí tu token de autorización de Matomo. Es un código alfanumérico como 0a1b2c34d56e78901fa2bc3d45678efa."
+
+#: classes/WP_Piwik/Admin/Settings.php:124
+msgid "Auth token"
+msgstr "Token de autorización"
+
+#: classes/WP_Piwik/Admin/Settings.php:121
+msgid "Enter the file path to your Matomo instance, e.g. /var/www/matomo/."
+msgstr "Introduce la ruta de archivos de la instancia de tu Matomo, p.ej. /var/www/matomo/."
+
+#: classes/WP_Piwik/Admin/Settings.php:120
+msgid "Enter your Matomo URL. This is the same URL you use to access your Matomo instance, e.g. http://www.example.com/matomo/."
+msgstr "Intoroduce la URL de tu Matomo. Es la misma URL que usas para acceder a tu instancia de Matomo, p.ej. https://www.ejemplo.com/matomo/."
+
+#: classes/WP_Piwik/Admin/Settings.php:111
+msgid "Choose this, if your self-hosted Matomo and WordPress are running on the same machine and you know the full server path to your Matomo instance."
+msgstr "Elige esto si tu Matomo auto-alojado y WordPress se están ejecutando en la misma máquina o sabes la ruta completa del servidor de tu instancia de Matomo. "
+
+#: classes/WP_Piwik/Admin/Settings.php:111
+#: classes/WP_Piwik/Admin/Settings.php:115
+msgid "Self-hosted (PHP API)"
+msgstr "Auto alojado (API PHP)"
+
+#: classes/WP_Piwik/Admin/Settings.php:111
+msgid "This is the default option for a self-hosted Matomo and should work for most configurations. WP-Matomo will connect to Matomo using http(s)."
+msgstr "Esta es la opción por defecto para un Matomo auto-alojado y debería funcionar en la mayoría de las configuraciones. WP-Matomo se conectará a Matomo usando http(s)."
+
+#: classes/WP_Piwik/Admin/Settings.php:111
+#: classes/WP_Piwik/Admin/Settings.php:114
+msgid "Self-hosted (HTTP API, default)"
+msgstr "Auto alojado (API HTTP, por defecto)"
+
+#: classes/WP_Piwik/Admin/Settings.php:111
+msgid "You can choose between three connection methods:"
+msgstr "Puedes escoger entre tres métodos de conexión:"
+
+#: classes/WP_Piwik/Admin/Settings.php:109
+#: classes/WP_Piwik/Template/MetaBoxCustomVars.php:30
+msgid "More information"
+msgstr "Más información"
+
+#: classes/WP_Piwik/Admin/Settings.php:109
+msgid "Neither cURL nor fopen are available. So WP-Matomo can not use the HTTP API and not connect to InnoCraft Cloud."
+msgstr "Ni cURL ni fopen están disponibles. Así que WP-Matomo no puede usar la API HTTP y no se puede conectar a la nube de InnoCraft."
+
+#: classes/WP_Piwik/Admin/Settings.php:111
+msgid "Cloud-hosted"
+msgstr "Alojado en la nube"
+
+#: classes/WP_Piwik/Admin/Settings.php:106
+msgid "or"
+msgstr "o"
+
+#: classes/WP_Piwik/Admin/Settings.php:106
+msgid "WP-Matomo is a WordPress plugin to show a selection of Matomo stats in your WordPress admin dashboard and to add and configure your Matomo tracking code. To use this you will need your own Matomo instance. If you do not already have a Matomo setup, you have two simple options: use either"
+msgstr "WP-Matomo es un plugin WordPress que sirve para mostrar una selección de las estadísticas de Matomo en el escritorio de administración de tu WordPress y para configurar tu código de seguimiento de Matomo. Para usarlo tienes que tener tu propia instancia de Matomo. Si no tienes una configuración de Matomo tienes dos sencillas opciones: utiliza o"
+
+#: classes/WP_Piwik/Admin/Settings.php:93
+msgid "Credits"
+msgstr "Agradecimientos"
+
+#: classes/WP_Piwik.php:1027 classes/WP_Piwik/Admin/Settings.php:89
+msgid "Support"
+msgstr "Soporte"
+
+#: classes/WP_Piwik/Admin/Settings.php:85
+msgid "Expert Settings"
+msgstr "Ajustes expertos"
+
+#: classes/WP_Piwik/Admin/Settings.php:80
+msgid "Enable Tracking"
+msgstr "Activar seguimiento"
+
+#: classes/WP_Piwik/Admin/Settings.php:76
+msgid "Show Statistics"
+msgstr "Mostrar estadísticas"
+
+#: classes/WP_Piwik/Admin/Settings.php:67
+msgid "WP-Matomo %s has to be connected to Matomo first. Check the &raquo;Connect to Matomo&laquo; section below."
+msgstr "WP-Matomo %s primero tiene que conectarse a Matomo. Revisa la sección &raquo;Conectar a Matomo&laquo; de abajo."
+
+#: classes/WP_Piwik/Admin/Settings.php:62
+msgid "WP-Matomo %s was not able to connect to Matomo using your configuration. Check the &raquo;Connect to Matomo&laquo; section below."
+msgstr "WP-Matomo %s no se ha podido conectar a Matomo usando tu configuración. Revisa la sección &raquo;Conectar a Matomo&laquo; de abajo."
+
+#: classes/WP_Piwik/Admin/Settings.php:58
+msgid "You are running a WordPress %s blog network (WPMU). WP-Matomo will handle your sites as different websites."
+msgstr "Estás ejecutando una red de blogs WordPress %s (WPMU). WP-Matomo gestionará tus sitios como webs diferentes."
+
+#: classes/WP_Piwik/Admin/Settings.php:58
+msgid "You are running WordPress %s."
+msgstr "Estás ejecutando WordPress %s."
+
+#: classes/WP_Piwik/Admin/Settings.php:54
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: classes/WP_Piwik/Admin/Settings.php:27
+msgid "Changes saved."
+msgstr "Cambios guardados."
+
+#: classes/WP_Piwik/Admin/Settings.php:24
+msgid "Reload"
+msgstr "Recargar"

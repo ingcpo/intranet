@@ -1,0 +1,11 @@
+# Archivos y carpetas ignorados por defecto en WordPress
+wp-config.php
+wp-content/uploads/
+.env
+.DS_Store
+error_log
+.vscode/
+.qodo/
+*.log
+node_modules/
+vendor/

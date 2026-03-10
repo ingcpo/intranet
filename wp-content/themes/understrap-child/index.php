@@ -1,0 +1,305 @@
+<?php
+/**
+ * The main template file.
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package understrap
+ */
+
+// Exit if accessed directly.
+defined( 'ABSPATH' ) || exit;
+
+get_header();
+
+$container = get_theme_mod( 'understrap_container_type' );
+?>
+<?php if ( is_front_page() && is_home() ) : ?>
+	<?php get_template_part( 'global-templates/hero' ); ?>
+<?php endif; ?>
+
+<div class="wrapper" id="index-wrapper">
+	<div class="row justify-content-center">
+		<div class="col-md-5 text-center">
+        <h1 class=" entry-title">Polinotas</h1>
+				<hr class="wp-block-separator flecha">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icono-polinotas-p.jpg" alt="">
+						<h2 class="barra gris escala-3 p-4">Polinotas es nuestro boletín institucional de circulación semanal, donde encontrarás noticias y eventos de nuestra institución. </h2>
+
+					</div>
+				</div>
+
+	<div class="container" id="content" tabindex="-1">
+
+		<div class="row justify-content-center pt-5">
+
+
+			<!-- Do the left sidebar check and opens the primary div -->
+
+
+
+<style>
+.entry-content p {    font-size: 0.86rem;    text-align: justify; color: #212529!important;}
+.comment-form-cookies-consent {display: none;}
+.widget_recent_entries li:before, .widget_categories li:before {content: ""; width: 13px;height: 17px;display: block;margin-left: -19px; margin-top: 3px; position: absolute;
+background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/img/separador.svg);}
+.carousel-caption-fin {    position: absolute;    right: 0;    left: 0;    bottom: 0;     padding-top: 0;      padding-bottom: 0;     height: 100%;}
+.raya-naranja {        width: 80px;    display: block;    height: 3px;    background: #81C43B;    margin: 0 auto;}
+a, a:link, a:active {    text-decoration: none; color: #575757;}
+a:hover {color: #81C43B;}
+/*
+    a, a:link, a:active {
+    color: #575757;
+    text-decoration: none;
+    background-color: transparent;}
+    a:hover {color: #81C43B;}
+*/
+
+
+                .input-group>.form-control:not(:last-child) {height: 42px; border-top-left-radius: 50px; border-bottom-left-radius: 50px;}
+    .widget-area li {list-style: none;line-height: 1.1;    padding-bottom: 1rem;}
+
+ @media screen and (max-width:460px) {
+     .understrap-read-more-link::after {   width: 42%!important;    margin: -8px 0 0 26%!important;}
+     .tags-links a {color: #81C43B;}
+ }
+
+.entry-header h2 a:hover, .comments-link a:hover, .widget-area a:hover {color: #3e3e3e; text-decoration: none;}
+.widget-area a {font-size: 0.86rem;}.entry-header h2 a, .comments-link a, .widget-area a {transition: color 0.2s linear 0.2s; color: #575757;}
+.understrap-read-more-link, .understrap-read-more-link:active, .understrap-read-more-link:visited {color:white!important; background-color: #81C43B; border: none; text-decoration: none; border-radius: 24px;}
+.understrap-read-more-link:hover {background-color: #81C43B;}
+#search-2 {margin-bottom: 1rem;}
+article img, img.wp-post-image {    width: 100%;    height: auto;}
+    .type-post {
+    margin-bottom: 40px;}
+
+    .category-noticias .entry-header h2, .blog-list-featured>article .entry-header h2 {
+    font-size: 30px!important;
+    margin-bottom: 6px;
+    line-height: 103%!important;}
+
+    .post-thumnail-caption, .entry-meta a, .entry-meta span, .sh-pagination a, .sh-pagination span, #sidebar .widget_recent_entries .post-date {color: #575757;}
+    .entry-meta {
+    padding-top: 8px;
+    padding-bottom: 13px;
+}
+    .entry-meta, .blog-list-featured>article .entry-meta {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+    .entry-meta, .entry-meta a {
+    font-size: 14px;
+}
+
+.entry-meta, .entry-meta a {
+    color: #8d8d8d;
+}
+
+.post-content, .blog-list-featured>article .post-content {
+    margin-top: 20px;
+}
+    .entry-footer {font-size: 0.86rem;}
+    .entry-content {padding-top: 0.5rem;}
+
+    .post-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s opacity ease-in-out;
+    border-radius: 8px;
+    background-color: rgba(47,47,47,.3);
+    background: -webkit-linear-gradient(rgba(0,0,0,0),#232323);
+    background: -moz-linear-gradient(rgba(0,0,0,0),#232323);
+    background: -o-linear-gradient(rgba(0,0,0,0),#232323);
+    background: linear-gradient(rgba(47,47,47,.1),rgba(47,47,47,.3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .post-thumbnail:hover .post-overlay,  .post-overlay span:hover {opacity: 1;}
+    .post-thumbnail {
+    position: relative;
+    display: block;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+    .post-overlay span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 0;
+    opacity: 0;
+}
+    .post-thumbnail:hover .post-overlay span:nth-child(1), .sh-footer-instagram-item:hover .post-overlay span:nth-child(1), .post-gallery-list:hover .post-overlay span:nth-child(1) {
+    animation-delay: 0s;
+}
+    .post-thumbnail:hover .post-overlay span, .sh-footer-instagram-item:hover .post-overlay span, .post-gallery-list:hover .post-overlay span {
+    animation: fadein .3s ease-in-out forwards;
+    opacity: 0;
+}
+    .post-thumbnail:hover .post-overlay span:nth-child(2), .sh-footer-instagram-item:hover .post-overlay span:nth-child(2), .post-gallery-list:hover .post-overlay span:nth-child(2) {
+    animation-delay: .1s;
+}
+    .post-thumbnail:hover .post-overlay span:nth-child(3), .sh-footer-instagram-item:hover .post-overlay span:nth-child(3), .post-gallery-list:hover .post-overlay span:nth-child(3) {
+    animation-delay: .2s;
+}
+    .compartir {display: block;
+    height: 40px;
+    width: 100%;
+    text-align: right;
+    margin-top: -45px;}
+    .compartir li {list-style: none;
+    display: inline-block;
+    padding: 0.6rem;
+    border: 1px solid lightgray;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 3px;}
+
+    .etiquetas {margin-bottom: 13px;}
+    .etiquetas a {
+    font-size: 13px;
+    padding: 6px 14px;
+    background-color: #002A45;
+        color: white;
+    border-radius: 50px;
+    margin-right: 6px;}
+
+</style>
+               <style>
+                .etiquetas ul {margin: 0;}
+                .etiquetas li {list-style: none; display: inline-block}
+    .etiquetas li a {
+    padding: 6px 14px;
+    background-color: #81C43B;
+        color: white;
+    border-radius: 50px;
+    margin-right: 6px;
+                }
+    .etiquetas {margin-bottom: 13px; font-size: 14px;}
+                   .fixed-top {position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;}
+            </style>
+
+
+    <div class="col-md-6">
+			<main class="site-main Hola" id="main">
+
+
+<?php
+	$paged = get_query_var('paged') ? get_query_var('paged') : 1;
+	$args = array(
+		'post_type' => 'post',
+		'post_status' => 'publish',
+		'category_name' => 'polinotas',
+		'posts_per_page' => 4,
+		'paged' => $paged,
+	);
+	$arr_posts = new WP_Query( $args );
+	if ($arr_posts->have_posts()) :
+		while ($arr_posts->have_posts()) : $arr_posts->the_post()
+?>
+		<div class="col-md-12 no-padding entry">
+			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<div class="col-md-9">
+						<?php
+							if ( has_post_thumbnail() ) :
+								the_post_thumbnail('large', array( 'class' => 'img-responsive news-img' ));
+							endif;
+						?>
+					</div>
+					<div class="col-md-9">
+						<header class="entry-header">
+							<h2 class="entry-title">
+								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							</h2>
+							<?php echo do_shortcode( '[ratemypost-result]'); ?>
+						</header>
+						<div class="entry-content">
+							<?php the_excerpt(); ?>
+						</div>
+					</div>
+			</article>
+		</div>
+		<?php endwhile ?>
+
+		<?php
+		$total_pages = $arr_posts->max_num_pages;
+		if ($total_pages > 1){
+
+			$current_page = max(1, get_query_var('paged'));
+
+			echo paginate_links(array(
+				'base' => get_pagenum_link(1) . '%_%',
+				'format' => '/page/%#%',
+				'current' => $current_page,
+				'total' => $total_pages,
+				'prev_text'    => __('« prev'),
+				'next_text'    => __('next »'),
+				'add_args'  => array()
+			));
+		}
+			?>
+		<?php else :?>
+		<h3><?php _e('404 Error: Not Found', ''); ?></h3>
+
+
+
+	<?php endif; wp_reset_postdata();?>
+
+
+			</main><!-- #main -->
+
+
+			</div>
+
+    <div class="col-md-4 widget-area" id="right-sidebar" role="complementary">
+			<?php dynamic_sidebar( 'right-sidebar' ); ?>
+
+    </div>
+<div class="col-md-10">
+    <!-- The pagination component -->
+
+</div>
+
+
+			<!-- Do the right sidebar check -->
+			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
+
+		</div><!-- .row -->
+
+	</div><!-- #content -->
+
+</div><!-- #index-wrapper -->
+<?php get_footer(); ?>

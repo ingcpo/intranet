@@ -1,0 +1,311 @@
+# Translation of Plugins - Redirection for Contact Form 7 - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Redirection for Contact Form 7 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-30 12:35:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Redirection for Contact Form 7 - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: wpcf7r-functions.php:395 wpcf7r-functions.php:413 wpcf7r-functions.php:448
+msgid "Redirection for Contact Form 7"
+msgstr "Redirección a Contact Form 7 Pro"
+
+#: classes/actions/class-wpcf7r-action-redirect.php:100
+msgid "Pass all the fields from the form as URL query parameters"
+msgstr "Pasar todos los campos del formulario como parámetros de consulta de la URL"
+
+#: wpcf7r-functions.php:461
+msgid "Contact Form Redirection"
+msgstr "Redirección de Contact Form 7"
+
+#: wpcf7r-functions.php:451
+msgid "Error: Contact Form 7 version is too old. Redirection for Contact Form 7 is compatible from version 4.8 and above. Please update Contact Form 7."
+msgstr "Error: la versión de Contact Form 7 es demasiado antigua. Redirection for Contact Form 7 es compatible con la versión 4.8 o superior. Por favor, actualiza Contact Form 7."
+
+#: classes/actions/class-wpcf7r-action-firescript.php:49
+msgid "Warning!"
+msgstr "¡Advertencia!"
+
+#: classes/actions/class-wpcf7r-action-redirect.php:109
+msgid "Pass specific fields from the form as URL query parameters"
+msgstr "Pasar campos específicos del formulario como parámetros de consulta de la URL"
+
+#: classes/actions/class-wpcf7r-action-firescript.php:50
+msgid ""
+"This option is for developers only - use with caution. If the plugin does not redirect after you have added scripts,\n"
+"                    it means you have a problem with your script. Either fix the script, or remove it."
+msgstr ""
+"Esta opción es solo para desarrolladores - úsala con precaución. Si el plugin no redirige después de que hayas añadido los scripts,\n"
+"                    significa que tienes un problema con tu script. Corrige el script o elimínalo."
+
+#: classes/actions/class-wpcf7r-action-redirect.php:92
+msgid "This option might not work as expected, since browsers often block popup windows. This option depends on the browser settings."
+msgstr "Esta opción puede no funcionar como se espera, ya que los navegadores suelen bloquear las ventanas de mensajes emergentes. Esta opción depende de los ajustes del navegador."
+
+#: classes/actions/class-wpcf7r-action-firescript.php:39
+#: classes/actions/class-wpcf7r-action-honeypot.php:30
+#: classes/actions/class-wpcf7r-action-redirect.php:91
+#: classes/actions/class-wpcf7r-action-sendmail.php:97
+msgid "Notice!"
+msgstr "¡Aviso!"
+
+#: classes/actions/class-wpcf7r-action-redirect.php:82
+msgid "Open page in a new tab"
+msgstr "Abrir la página en una nueva pestaña"
+
+#: wpcf7r-functions.php:176
+msgid "Send slack message."
+msgstr "Enviar un mensaje de slack."
+
+#: wpcf7r-functions.php:175
+msgid "Send slack message"
+msgstr "Enviar un mensaje de slack"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:182
+msgid "Unable to add this request. A valid email address or username must be supplied"
+msgstr "No se ha podido añadir esta solicitud. Se debe proporcionar una dirección de correo electrónico o un nombre de usuario válido"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:141
+msgid "Request added successfully."
+msgstr "Solicitud añadida correctamente."
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:139
+msgid "Confirmation request initiated successfully."
+msgstr "Confirmación de petición iniciada correctamente."
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:128
+msgid "Unable to initiate confirmation request."
+msgstr "No ha sido posible iniciar la petición de confirmación."
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:84
+msgid "Send confirmation email"
+msgstr "Enviar un correo electrónico de confirmación"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:73
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:74
+msgid "Email/Username does not exist error message"
+msgstr "Correo electrónico/nombre de usuario no existe un mensaje de error"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:64
+msgid "Add a text field to your form and save it"
+msgstr "Añade un campo de texto a tu formulario y guardalo"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:63
+msgid "Username field"
+msgstr "Campo de nombre de usuario"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:62
+msgid "The field that is used for username ([username])"
+msgstr "El campo que se utiliza para el nombre de usuario ([nombre de usuario])"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:56
+msgid "Export personal data"
+msgstr "Exportar los datos personales"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:55
+msgid "Remove personal data"
+msgstr "Eliminar los datos personales"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:49
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:50
+msgid "Request type"
+msgstr "Tipo de solicitud"
+
+#: classes/actions/class-wpcf7r-action-erase-data-request.php:12
+msgid "Erase/Export Data Request"
+msgstr "Borrar/exportar la solicitud de datos"
+
+#: wpcf7r-functions.php:87
+msgid "Stripe Integration"
+msgstr "Integración con Stripe"
+
+#: classes/class-wpcf7r-leads-manager.php:207
+msgid "Preview"
+msgstr "Vista previa"
+
+#: classes/class-wpcf7r-leads-manager.php:153
+msgid "Form does not exist"
+msgstr "El formulario no existe"
+
+#: classes/class-wpcf7r-leads-manager.php:81
+msgid "Export"
+msgstr "Exportar"
+
+#: classes/class-wpcf7r-leads-manager.php:60
+msgid "Preview is not available: save lead action does not exist"
+msgstr "La vista previa no está disponible: la acción de guardar cliente potencial no existe"
+
+#: classes/class-wpcf7r-action.php:692
+msgid "Duplicate"
+msgstr "Duplicado"
+
+#: classes/actions/class-wpcf7r-action-save-lead.php:126
+msgid "No preview defined"
+msgstr "Sin vista previa definida"
+
+#: classes/class-wpcf7r-form-helper.php:591
+msgid "This form no longer exists"
+msgstr "Este formulario ya no existe"
+
+#: templates/fields/field-leads-mapping.php:39
+msgid "Should this field appear on the leads list"
+msgstr "¿Debería aparecer este campo en la lista de clientes potenciales?"
+
+#: templates/fields/field-leads-mapping.php:37
+msgid "Display on leads list"
+msgstr "Mostrar en la lista de clientes potenciales"
+
+#: wpcf7r-functions.php:103
+msgid "Custom Validations"
+msgstr "Validaciones personalizadas"
+
+#: classes/actions/class-wpcf7r-action-sendmail.php:65
+msgid "Use plain text email"
+msgstr "Usar correo electrónico del texto sin formato"
+
+#: classes/actions/class-wpcf7r-action-redirect.php:118
+msgid "Encode passed query parameters"
+msgstr "Cifrar los parámetros de consulta pasados"
+
+#: wpcf7r-functions.php:95
+msgid "API Integrations"
+msgstr "Integraciones de la API"
+
+#: classes/class-wpcf7r-settings.php:264
+msgid "Reset all Settings - BE CAREFUL! this will delete all Redirection for Contact Form 7 data."
+msgstr "Restablecer todos los ajustes - ¡TEN CUIDADO! esto va borrar toda la redirección para los datos del formulario de contacto 7."
+
+#: classes/class-wpcf7r-post-types.php:164
+msgid "Action Meta"
+msgstr "Metadatos de acción"
+
+#: classes/class-wpcf7r-form-helper.php:518
+msgid "The data is used for debug purposes only!"
+msgstr "¡Los datos se utilizan solo con fines de depuración!"
+
+#: classes/class-wpcf7r-form-helper.php:516
+msgid "WordPress Version"
+msgstr "Versión de WordPress"
+
+#: classes/class-wpcf7r-form-helper.php:515
+msgid "Installed plugins list"
+msgstr "Lista de plugins instalados"
+
+#: classes/class-wpcf7r-form-helper.php:514
+msgid "PHP Version"
+msgstr "Versión de PHP"
+
+#: classes/class-wpcf7r-form-helper.php:513
+msgid "Actions post data."
+msgstr "Acciones de publicar los datos."
+
+#: classes/class-wpcf7r-form-helper.php:512
+msgid "Form post data."
+msgstr "Datos de la entrada del formulario."
+
+#: classes/class-wpcf7r-form-helper.php:511
+msgid "The debug information includes the following details"
+msgstr "La información de depuración incluye los siguientes detalles"
+
+#: classes/class-wpcf7r-form-helper.php:510
+msgid "Debug Information"
+msgstr "Información de depuración"
+
+#: classes/actions/html/rule-title.php:22
+msgid "Rule title"
+msgstr "Título de la regla"
+
+#: classes/actions/html/rule-title.php:20
+msgid "Rule Title"
+msgstr "Título de la regla"
+
+#: classes/class-wpcf7r-leads-manager.php:406
+msgid "View"
+msgstr "Vista"
+
+#: classes/class-wpcf7r-leads-manager.php:206
+#: classes/class-wpcf7r-leads-manager.php:243
+msgid "Form"
+msgstr "Formulario"
+
+#: classes/class-wpcf7r-leads-manager.php:366
+msgid "Lead from contact form: "
+msgstr "Cliente potencial desde el formulario de contacto: "
+
+#: classes/class-wpcf7r-actions.php:77
+msgid "New Block"
+msgstr "Nuevo bloque"
+
+#: classes/class-wpcf7r-action.php:696
+msgid "View Leads"
+msgstr "Ver clientes potenciales"
+
+#: classes/class-wpcf7r-action.php:689
+#: classes/class-wpcf7r-leads-manager.php:409
+msgid "Move to trash"
+msgstr "Mover a la papelera"
+
+#: classes/class-wpcf7r-action.php:682 classes/class-wpcf7r-action.php:686
+#: classes/class-wpcf7r-action.php:704 classes/class-wpcf7r-action.php:707
+msgid "Edit"
+msgstr "Editar"
+
+#: classes/class-wpcf7r-action.php:622
+msgid "You can purchase and activate conditional logic addon on the extensions tab."
+msgstr "Puedes comprar y activar la extensión de lógica condicional en la pestaña de extensiones."
+
+#: classes/class-wpcf7r-action.php:621
+msgid "<strong>CONDITIONAL LOGIC!</strong><br/>"
+msgstr "<strong>LÓGICA CONDICIONAL!</strong><br/>"
+
+#. translators:%s the action status name
+#: classes/class-wpcf7r-action.php:498
+msgid "Enable %s"
+msgstr "Activar %s"
+
+#: classes/class-wpcf7r-action.php:289
+msgid "These tags are available only inside the loop as described by the plugin author"
+msgstr "Estas etiquetas están disponibles solo dentro del ciclo como lo describe el autor del plugin."
+
+#: classes/class-wpcf7r-action.php:288
+msgid "Special mail tags"
+msgstr "Etiquetas de correo especiales"
+
+#: classes/class-wpcf7r-action.php:282
+msgid "Available mail tags"
+msgstr "Etiquetas de correo disponibles"
+
+#: classes/class-wpcf7r-form.php:245
+msgid "You need to save your form"
+msgstr "Necesitas guardar tu formulario"
+
+#: classes/class-wpcf7r-lead.php:141
+msgid "File"
+msgstr "Archivo"
+
+#: classes/class-wpcf7r-html.php:185
+msgid "And"
+msgstr "Y"
+
+#: classes/class-wpcf7r-html.php:179
+msgid "Your value here"
+msgstr "Tu valor aquí"
+
+#: classes/class-wpcf7r-html.php:136
+msgid "Is Not Empty"
+msgstr "No está vacío"
+
+#: classes/actions/class-wpcf7r-action-redirect.php:64
+#: classes/actions/class-wpcf7r-action-redirect.php:65
+msgid "Use external URL"
+msgstr "Usar una URL externa"
+
+#: wpcf7r-functions.php:464
+msgid "Error: Please install and activate Contact Form 7."
+msgstr "Error: por favor, instala y activa Contact Form 7."

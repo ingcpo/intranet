@@ -1,0 +1,804 @@
+# Translation of Plugins - Crelly Slider - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Crelly Slider - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-23 16:05:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Crelly Slider - Stable (latest release)\n"
+
+#: wordpress/elements.php:843
+msgid "Pause the current slide timer while the user is watching the video."
+msgstr "Pausar tiempo de diapositiva actual cuando el usuario reproduce el video"
+
+#: wordpress/elements.php:828
+msgid "Pause while watching"
+msgstr "Pausar durante reproducción"
+
+#: wordpress/elements.php:824
+msgid "Video player settings."
+msgstr "Ajustes del reproductor de vídeo."
+
+#: wordpress/elements.php:809
+msgid "Mute on start"
+msgstr "Silenciar al iniciar"
+
+#: wordpress/elements.php:776
+msgid "Player settings"
+msgstr "Ajustes del reproductor"
+
+#: wordpress/admin.php:299
+msgid "No sliders selected. Edit this page and select a slider in the Crelly Slider editor block."
+msgstr "No hay carruseles seleccionados. Edita esta página y selecciona un carrusel en el bloque Crelly Slider del editor."
+
+#: wordpress/admin.php:298
+msgid "No sliders found. Do you want to&nbsp;<a href=\"admin.php?page=crellyslider&view=add\">create one</a>?"
+msgstr "No se encontraron diapositivas. ¿Quieres &nbsp;<a href=\"admin.php?page=crellyslider&view=add\">crear una nueva</a>?"
+
+#: wordpress/admin.php:297
+msgid "Select slider"
+msgstr "Seleccionar el carrusel"
+
+#: wordpress/slider.php:343
+msgid "Need a slider during Black Friday days? This is the option you need!"
+msgstr "¿Necesitas un carrusel durante los días del Black Friday? ¡Esta es la opción que necesitas!"
+
+#: wordpress/slider.php:334
+msgid "Display to"
+msgstr "Mostrar hasta"
+
+#: wordpress/slider.php:327 wordpress/slider.php:328
+msgid "Display forever"
+msgstr "Mostrar para siempre"
+
+#: wordpress/slider.php:315
+msgid "Display from"
+msgstr "Mostrar desde"
+
+#: wordpress/slider.php:308 wordpress/slider.php:309
+msgid "Display from now"
+msgstr "Mostrar desde ahora"
+
+#: wordpress/slider.php:302
+msgid "Display slider from/to"
+msgstr "Mostrar carrusel desde/hasta"
+
+#: wordpress/admin.php:64
+msgid "Please wait"
+msgstr "Por favor espera"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/crelly-slider/"
+msgstr "https://wordpress.org/plugins/crelly-slider/"
+
+#. Author of the plugin
+msgid "Fabio Rinaldi"
+msgstr "Fabio Rinaldi"
+
+#. Author URI of the plugin
+msgid "https://github.com/fabiorino"
+msgstr "https://github.com/fabiorino"
+
+#. Description of the plugin
+msgid "A free responsive slider that supports layers. Add texts, images, videos and beautify them with transitions and animations."
+msgstr "Carrusel gratuito y adaptable que soporta capas. Añade textos, imágenes, vídeos y hazlos atractivos con transiciones y animaciones."
+
+#: wordpress/slides.php:337
+msgid "If it is set to \"Yes\", the slide will not be displayed to the users."
+msgstr "Si está marcado \"Sí\", la diapositiva no se mostrará a los usuarios."
+
+#: wordpress/slides.php:321
+msgid "Draft"
+msgstr "Borrador"
+
+#: wordpress/slider.php:298
+msgid "The slide that will be displayed first."
+msgstr "Diapositiva que se mostrará primero."
+
+#: wordpress/slider.php:272 wordpress/slider.php:278 wordpress/slider.php:281
+msgid "Random slide"
+msgstr "Diapositiva aleatoria"
+
+#: wordpress/slider.php:267
+msgid "Start from slide"
+msgstr "Iniciar desde la diapositiva"
+
+#: wordpress/slider.php:263
+msgid "The order of the slides is random (instead of being linear)."
+msgstr "El orden de las diapositivas es aleatorio (en lugar de lineal)"
+
+#: wordpress/slider.php:248
+msgid "Random order"
+msgstr "Orden aleatorio"
+
+#: wordpress/admin.php:296
+msgid "Switch editor"
+msgstr "Cambiar editor"
+
+#. Plugin Name of the plugin
+msgid "Crelly Slider"
+msgstr "Crelly Slider"
+
+#: wordpress/slides.php:317
+msgid "Apply CSS to the slide."
+msgstr "Aplicar CSS a la diapositiva."
+
+#: wordpress/slides.php:305
+msgid "Open the link (e.g.: http://www.google.it) when the user clicks on the background. Leave it empty if you don't want it."
+msgstr "Abrir el enlace (ej: http://www.google.it) cuando el usuario hace clic en el fondo. Déjalo en blanco si no deseas esto."
+
+#: wordpress/slides.php:281
+msgid "The time that the slide will take to get out."
+msgstr "El tiempo que la diapositiva tardará en salir"
+
+#: wordpress/slides.php:272
+msgid "Ease Out"
+msgstr "Suavizado de salida"
+
+#: wordpress/slides.php:268
+msgid "The time that the slide will take to get in."
+msgstr "El tiempo que la diapositiva tardará en entrar."
+
+#: wordpress/slides.php:259
+msgid "Ease In"
+msgstr "Suavizado de entrada"
+
+#: wordpress/slides.php:255
+msgid "The time that the slide will remain on the screen."
+msgstr "El tiempo que la diapositiva permanecerá en la pantalla"
+
+#: wordpress/slides.php:242
+msgid "The out animation of the slide."
+msgstr "La animación de salida de la diapositiva"
+
+#: wordpress/slides.php:223
+msgid "The in animation of the slide."
+msgstr "La animación de entrada de la diapositiva"
+
+#: wordpress/slides.php:203
+msgid "Pattern background image"
+msgstr "Patrón de la imagen de fondo"
+
+#: wordpress/slides.php:202
+msgid "Full width responsive background image"
+msgstr "Imagen de fondo adaptable de ancho completo"
+
+#: wordpress/slides.php:199
+msgid "Presets:"
+msgstr "Valores por defecto:"
+
+#: wordpress/slides.php:196
+msgid "The background of the slide and its proprieties."
+msgstr "El fondo de la diapositiva y sus propiedades"
+
+#: wordpress/slides.php:123 wordpress/slides.php:191
+msgid "Background size:"
+msgstr "Tamaño de la imagen de fondo:"
+
+#: wordpress/slides.php:117 wordpress/slides.php:181 wordpress/slides.php:184
+msgid "No repeat"
+msgstr "No repetir"
+
+#: wordpress/slides.php:116 wordpress/slides.php:180 wordpress/slides.php:183
+msgid "Repeat"
+msgstr "Repetir"
+
+#: wordpress/slides.php:114 wordpress/slides.php:177
+msgid "Background repeat:"
+msgstr "Repetir el fondo"
+
+#: wordpress/slides.php:108 wordpress/slides.php:171
+msgid "Background position-y:"
+msgstr "Posición Y del fondo"
+
+#: wordpress/slides.php:105 wordpress/slides.php:168
+msgid "Background position-x:"
+msgstr "Posición X del fondo"
+
+#: wordpress/slides.php:99 wordpress/slides.php:161
+msgid "Enter value"
+msgstr "Agregar valor"
+
+#: wordpress/slides.php:95 wordpress/slides.php:145 wordpress/slides.php:147
+msgid "Transparent"
+msgstr "Transparente"
+
+#: wordpress/slides.php:91 wordpress/slides.php:140
+msgid "Background color:"
+msgstr "Color de fondo:"
+
+#: wordpress/slides.php:85 wordpress/slides.php:130 wordpress/slides.php:133
+msgid "Select image"
+msgstr "Selecciona imagen"
+
+#: wordpress/slides.php:82 wordpress/slides.php:126
+msgid "Background image:"
+msgstr "Imagen de fondo:"
+
+#: wordpress/slides.php:78
+msgid "Background"
+msgstr "Fondo"
+
+#: wordpress/slides.php:67
+msgid "Slide Options"
+msgstr "Opciones de diapositiva"
+
+#: wordpress/slides.php:26
+msgid "Add Slide"
+msgstr "Agregar diapositiva"
+
+#: wordpress/slider.php:365
+msgid "Some jQuery functions that you can fire during the slider execution."
+msgstr "Algunas funciones de jQuery que puedes lanzar durante la ejecución del carrusel."
+
+#: wordpress/slider.php:347
+msgid "Callbacks"
+msgstr "Callbacks"
+
+#: wordpress/slider.php:244
+msgid "Pause the current slide when hovered."
+msgstr "Pausar la diapositiva actual cuando pasas el cursor."
+
+#: wordpress/slider.php:229
+msgid "Pause on Hover"
+msgstr "Pausar al pasar el cursor"
+
+#: wordpress/slider.php:225
+msgid "Draw the progress bar during the slide execution."
+msgstr "Dibujar la barra de progreso mientras se muestra la dispositiva"
+
+#: wordpress/slider.php:210
+msgid "Show Progress Bar"
+msgstr "Mostrar barra de progreso"
+
+#: wordpress/slider.php:206
+msgid "Enable swipe left, swipe right, drag left, drag right commands."
+msgstr "Activar los comandos de deslizar a la izquierda, a la derecha, arrastrar a la izquierda y a la derecha."
+
+#: wordpress/slider.php:191
+msgid "Enable swipe and drag"
+msgstr "Activar deslizar y arrastrar"
+
+#: wordpress/slider.php:187
+msgid "Show the links buttons to change slide."
+msgstr "Mostrar los botones enlace para cambiar de diapositiva."
+
+#: wordpress/slider.php:172
+msgid "Show Navigation"
+msgstr "Mostrar navegación"
+
+#: wordpress/slider.php:168
+msgid "Show the previous and next arrows."
+msgstr "Mostrar las flechas anterior y siguiente."
+
+#: wordpress/slider.php:153
+msgid "Show Controls"
+msgstr "Mostrar controles"
+
+#: wordpress/slider.php:149
+msgid "The slides loop is automatic."
+msgstr "Las diapositivas se repetirán automáticamente."
+
+#: wordpress/slider.php:134
+msgid "Automatic Slide"
+msgstr "Pase de diapositivas automático"
+
+#: wordpress/slider.php:130
+msgid "The content initial height of the slider."
+msgstr "La altura del contenido inicial del carrusel"
+
+#: wordpress/slider.php:121
+msgid "Start Height"
+msgstr "Altura inicial"
+
+#: wordpress/slider.php:117
+msgid "The content initial width of the slider."
+msgstr "El ancho del contenido inicial del carrusel."
+
+#: wordpress/slider.php:108
+msgid "Start Width"
+msgstr "Anchura inicial"
+
+#: wordpress/slider.php:104
+msgid "The slider will be adapted to the screen size."
+msgstr "El carrusel se adaptará al tamaño de la pantalla"
+
+#: wordpress/slider.php:89
+msgid "Responsive"
+msgstr "Adaptable"
+
+#: wordpress/slider.php:85
+msgid "Modify the layout type of the slider."
+msgstr "Modifica el tipo de diseño del carrusel."
+
+#: wordpress/slider.php:70
+msgid "Layout"
+msgstr "Diseño"
+
+#: wordpress/slider.php:60
+msgid "Slider General Options"
+msgstr "Opciones generales del carrusel"
+
+#: wordpress/slider.php:45
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: wordpress/slider.php:33
+msgid "Alias:"
+msgstr "Alias:"
+
+#: wordpress/slider.php:23 wordpress/slider.php:27
+msgid "Slider Name"
+msgstr "Nombre del carrusel"
+
+#: wordpress/slider.php:9
+msgid "Fixed"
+msgstr "Ancho fijo"
+
+#: wordpress/slider.php:8
+msgid "Full Width"
+msgstr "Ancho completo"
+
+#: wordpress/home.php:54
+msgid "Import Slider"
+msgstr "Importar carrusel"
+
+#: wordpress/home.php:53
+msgid "Add Slider"
+msgstr "Agregar carrusel"
+
+#: wordpress/home.php:41
+msgid "Delete Slider"
+msgstr "Borrar carrusel"
+
+#: wordpress/home.php:40
+msgid "Export Slider"
+msgstr "Exportar diapositiva"
+
+#: wordpress/home.php:39
+msgid "Duplicate Slider"
+msgstr "Duplicar carrusel"
+
+#: wordpress/home.php:38
+msgid "Edit Slider"
+msgstr "Editar carrusel"
+
+#: wordpress/home.php:28
+msgid "Actions"
+msgstr "Acciones"
+
+#: wordpress/home.php:27
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: wordpress/home.php:26
+msgid "Alias"
+msgstr "Alias"
+
+#: wordpress/home.php:25
+msgid "Name"
+msgstr "Nombre"
+
+#: wordpress/home.php:24
+msgid "ID"
+msgstr "ID"
+
+#: wordpress/home.php:19
+msgid "Sliders List"
+msgstr "Listado de carruseles"
+
+#: wordpress/home.php:9
+msgid "No Sliders found. Please add a new one."
+msgstr "No se encontraron carruseles. Por favor agrega uno nuevo."
+
+#: wordpress/frontend.php:43
+msgid "The slider hasn't been found"
+msgstr "No se ha encontrado el carrusel"
+
+#: wordpress/frontend.php:26
+msgid "You have to insert a valid alias in the shortcode"
+msgstr "Introduce un alias válido en el shortcode"
+
+#: wordpress/elements.php:794
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: wordpress/elements.php:781 wordpress/elements.php:784
+#: wordpress/elements.php:787 wordpress/elements.php:796
+#: wordpress/elements.php:799 wordpress/elements.php:802
+#: wordpress/elements.php:811 wordpress/elements.php:814
+#: wordpress/elements.php:817 wordpress/elements.php:831
+#: wordpress/elements.php:834 wordpress/elements.php:837
+#: wordpress/slider.php:13 wordpress/slider.php:17 wordpress/slides.php:327
+#: wordpress/slides.php:331
+msgid "No"
+msgstr "No"
+
+#: wordpress/elements.php:781 wordpress/elements.php:784
+#: wordpress/elements.php:787 wordpress/elements.php:796
+#: wordpress/elements.php:799 wordpress/elements.php:802
+#: wordpress/elements.php:811 wordpress/elements.php:814
+#: wordpress/elements.php:817 wordpress/elements.php:831
+#: wordpress/elements.php:834 wordpress/elements.php:837
+#: wordpress/slider.php:12 wordpress/slider.php:16 wordpress/slides.php:326
+#: wordpress/slides.php:330
+msgid "Yes"
+msgstr "Sí"
+
+#: wordpress/elements.php:779
+msgid "Loop video"
+msgstr "Repetición del vídeo"
+
+#: wordpress/elements.php:772
+msgid "Set source and ID."
+msgstr "Establecer fuente e ID"
+
+#: wordpress/elements.php:752
+msgid "Video source"
+msgstr "Fuente del vídeo"
+
+#: wordpress/elements.php:509
+msgid "Change the image source or the alt text."
+msgstr "Cambia la fuente de la imagen o el texto alternativo."
+
+#: wordpress/elements.php:504 wordpress/elements.php:505
+msgid "Open gallery"
+msgstr "Abrir galería"
+
+#: wordpress/elements.php:501
+msgid "Modify image"
+msgstr "Modificar imagen"
+
+#: wordpress/elements.php:459 wordpress/elements.php:709
+#: wordpress/elements.php:1019
+msgid "Apply custom CSS classes to the element. The style of the classes may not work when working on backend."
+msgstr "Aplicar clases personalizadas CSS al elemento. El estilo de las clases puede no funcionar mientras se trabaja en el escritorio."
+
+#: wordpress/elements.php:451 wordpress/elements.php:701
+#: wordpress/elements.php:1011
+msgid "Custom classes"
+msgstr "Clases personalizadas"
+
+#: wordpress/elements.php:447 wordpress/elements.php:697
+#: wordpress/elements.php:1007
+msgid "Style the element."
+msgstr "Dar estilo al elemento."
+
+#: wordpress/elements.php:439 wordpress/elements.php:689
+#: wordpress/elements.php:999 wordpress/slides.php:309
+msgid "Custom CSS"
+msgstr "Estilo CSS personalizado"
+
+#: wordpress/elements.php:435 wordpress/elements.php:685
+msgid "Open the link (e.g.: http://www.google.it) on click. Leave it empty if you don't want it."
+msgstr "Abre el enlace (ej. http://www.google.it) al hacer clic. Déjalo vacío si no quieres esto."
+
+#: wordpress/elements.php:423 wordpress/elements.php:426
+#: wordpress/elements.php:429 wordpress/elements.php:673
+#: wordpress/elements.php:676 wordpress/elements.php:679
+#: wordpress/slides.php:293 wordpress/slides.php:296 wordpress/slides.php:299
+msgid "Open link in a new tab"
+msgstr "Abrir enlace en pestaña nueva"
+
+#: wordpress/elements.php:415 wordpress/elements.php:665
+#: wordpress/slides.php:285
+msgid "Link"
+msgstr "Enlace"
+
+#: wordpress/elements.php:411 wordpress/elements.php:661
+#: wordpress/elements.php:995
+msgid "How long will the out animation take."
+msgstr "Cuánto tardará la animación de salida."
+
+#: wordpress/elements.php:402 wordpress/elements.php:652
+#: wordpress/elements.php:986
+msgid "Ease out"
+msgstr "Suavizado de salida."
+
+#: wordpress/elements.php:398 wordpress/elements.php:648
+#: wordpress/elements.php:982
+msgid "How long will the in animation take."
+msgstr "Cuánto tardará la animación de entrada."
+
+#: wordpress/elements.php:389 wordpress/elements.php:639
+#: wordpress/elements.php:973
+msgid "Ease in"
+msgstr "Suavizado de entrada"
+
+#: wordpress/elements.php:385 wordpress/elements.php:635
+#: wordpress/elements.php:969
+msgid "The out animation of the element.<br /><br />Disable synchronization with slide out animation: if not checked, the slide out animation won't start until all the elements that have this option unchecked are animated out."
+msgstr "Animación de salida del elemento. <br /><br />Deshabilitar la sincronización con la salida de la animación: si no está marcada, la salida de la animación no comenzará hasta que todos los elementos que tengan esta opción sin marcar hayan hecho su salida"
+
+#: wordpress/elements.php:373 wordpress/elements.php:376
+#: wordpress/elements.php:379 wordpress/elements.php:623
+#: wordpress/elements.php:626 wordpress/elements.php:629
+#: wordpress/elements.php:957 wordpress/elements.php:960
+#: wordpress/elements.php:963
+msgid "Disable synchronization with slide out animation"
+msgstr "Deshabilitar la sincronización con la animación de salida de la diapositiva"
+
+#: wordpress/elements.php:358 wordpress/elements.php:608
+#: wordpress/elements.php:942 wordpress/slides.php:227
+msgid "Out animation"
+msgstr "Animación de salida"
+
+#: wordpress/elements.php:354 wordpress/elements.php:604
+#: wordpress/elements.php:938
+msgid "The in animation of the element."
+msgstr "La animación de entrada del elemento"
+
+#: wordpress/elements.php:339 wordpress/elements.php:589
+#: wordpress/elements.php:923 wordpress/slides.php:208
+msgid "In animation"
+msgstr "Animación de entrada"
+
+#: wordpress/elements.php:335 wordpress/elements.php:585
+#: wordpress/elements.php:919
+msgid "Write \"3000\" to set 3000 milliseconds minus delay time (so, if the delay time is 1000 milliseconds, the element will be displayed for 3000-1000=2000 milliseconds)."
+msgstr "Escribe \"3000\" para establecer 3000 milisegundos menos el tiempo de retraso (si el tiempo de retraso es de 1000 milisegundos, el elemento será mostrado por 3000-1000=2000 milisegundos)"
+
+#: wordpress/elements.php:332 wordpress/elements.php:582
+#: wordpress/elements.php:916
+msgid "Write \"all\" to set the entire time."
+msgstr "Escribe \"all\" para que se muestre siempre"
+
+#: wordpress/elements.php:329 wordpress/elements.php:579
+#: wordpress/elements.php:913
+msgid "How long will the element be displayed during the slide execution."
+msgstr "Cuánto tiempo se mostrará el elemento durante la ejecución del carrusel."
+
+#: wordpress/elements.php:320 wordpress/elements.php:570
+#: wordpress/elements.php:904 wordpress/slides.php:246
+msgid "Time"
+msgstr "Tiempo"
+
+#: wordpress/elements.php:316 wordpress/elements.php:566
+#: wordpress/elements.php:900
+msgid "How long will the element wait before the entrance."
+msgstr "Cuanto tardará el elemento en hacer su entrada"
+
+#: wordpress/elements.php:307 wordpress/elements.php:557
+#: wordpress/elements.php:891
+msgid "Delay"
+msgstr "Retraso"
+
+#: wordpress/elements.php:303 wordpress/elements.php:553
+#: wordpress/elements.php:887
+msgid "An element with an high z-index will cover an element with a lower z-index if they overlap."
+msgstr "Un elemento con un z-index mayor cubrirá un elemento con uno menor, si se sobreponen."
+
+#: wordpress/elements.php:295 wordpress/elements.php:545
+#: wordpress/elements.php:879
+msgid "Z - index"
+msgstr "Z - index"
+
+#: wordpress/elements.php:291 wordpress/elements.php:541
+#: wordpress/elements.php:875
+msgid "Top distance in px from the start height."
+msgstr "Distancia en píxeles desde arriba a partir de la altura inicial."
+
+#: wordpress/elements.php:288 wordpress/elements.php:538
+#: wordpress/elements.php:872
+msgid "Center vertically"
+msgstr "Centrar verticalmente"
+
+#: wordpress/elements.php:279 wordpress/elements.php:529
+#: wordpress/elements.php:863
+msgid "Top"
+msgstr "Arriba"
+
+#: wordpress/elements.php:275 wordpress/elements.php:525
+#: wordpress/elements.php:859
+msgid "Left distance in px from the start width."
+msgstr "Distancia en píxeles desde la izquierda desde el ancho inicial."
+
+#: wordpress/elements.php:272 wordpress/elements.php:522
+#: wordpress/elements.php:856
+msgid "Center horizontally"
+msgstr "Centrar horizontalmente"
+
+#: wordpress/elements.php:263 wordpress/elements.php:513
+#: wordpress/elements.php:847
+msgid "Left"
+msgstr "Izquierda"
+
+#: wordpress/elements.php:259
+msgid "Write the text or the HTML."
+msgstr "Escribe el texto o el HTML"
+
+#: wordpress/elements.php:251
+msgid "Text"
+msgstr "Texto"
+
+#: wordpress/elements.php:248 wordpress/elements.php:498
+#: wordpress/elements.php:749 wordpress/slider.php:67 wordpress/slides.php:75
+msgid "Description"
+msgstr "Descripción"
+
+#: wordpress/elements.php:247 wordpress/elements.php:497
+#: wordpress/elements.php:748 wordpress/slider.php:66 wordpress/slides.php:74
+msgid "Parameter"
+msgstr "Parámetro"
+
+#: wordpress/elements.php:246 wordpress/elements.php:496
+#: wordpress/elements.php:747 wordpress/slider.php:65 wordpress/slides.php:73
+msgid "Option"
+msgstr "Opción"
+
+#: wordpress/elements.php:240 wordpress/elements.php:491
+#: wordpress/elements.php:741
+msgid "Element Options"
+msgstr "Opciones de elementos"
+
+#: wordpress/elements.php:233 wordpress/elements.php:484
+#: wordpress/elements.php:734
+msgid "Fade small right"
+msgstr "Desvanecer ligeramente hacia la derecha"
+
+#: wordpress/elements.php:232 wordpress/elements.php:483
+#: wordpress/elements.php:733
+msgid "Fade small left"
+msgstr "Desvanecer ligeramente hacia la izquierda"
+
+#: wordpress/elements.php:231 wordpress/elements.php:482
+#: wordpress/elements.php:732
+msgid "Fade small up"
+msgstr "Desvanecer ligeramente hacia arriba"
+
+#: wordpress/elements.php:230 wordpress/elements.php:481
+#: wordpress/elements.php:731
+msgid "Fade small down"
+msgstr "Desvanecer ligeramente hacia abajo"
+
+#: wordpress/elements.php:229 wordpress/elements.php:480
+#: wordpress/elements.php:730 wordpress/slides.php:56
+msgid "Fade right"
+msgstr "Desvanecer hacia la derecha"
+
+#: wordpress/elements.php:228 wordpress/elements.php:479
+#: wordpress/elements.php:729 wordpress/slides.php:55
+msgid "Fade left"
+msgstr "Desvanecer hacia la izquierda"
+
+#: wordpress/elements.php:227 wordpress/elements.php:478
+#: wordpress/elements.php:728
+msgid "Fade up"
+msgstr "Desvanecer hacia arriba"
+
+#: wordpress/elements.php:226 wordpress/elements.php:477
+#: wordpress/elements.php:727
+msgid "Fade down"
+msgstr "Desvanecer hacia abajo"
+
+#: wordpress/elements.php:225 wordpress/elements.php:476
+#: wordpress/elements.php:726 wordpress/slides.php:54
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: wordpress/elements.php:224 wordpress/elements.php:475
+#: wordpress/elements.php:725 wordpress/slides.php:58
+msgid "Slide right"
+msgstr "Deslizar hacia la derecha"
+
+#: wordpress/elements.php:223 wordpress/elements.php:474
+#: wordpress/elements.php:724 wordpress/slides.php:57
+msgid "Slide left"
+msgstr "Deslizar hacia la izquierda"
+
+#: wordpress/elements.php:222 wordpress/elements.php:473
+#: wordpress/elements.php:723 wordpress/slides.php:59
+msgid "Slide up"
+msgstr "Deslizar hacia arriba"
+
+#: wordpress/elements.php:221 wordpress/elements.php:472
+#: wordpress/elements.php:722 wordpress/slides.php:60
+msgid "Slide down"
+msgstr "Deslizar hacia abajo"
+
+#: wordpress/elements.php:220 wordpress/elements.php:471
+#: wordpress/elements.php:721 wordpress/slides.php:53 wordpress/slides.php:84
+#: wordpress/slides.php:129 wordpress/slides.php:132
+msgid "None"
+msgstr "Nada"
+
+#: wordpress/elements.php:166
+msgid "Duplicate element"
+msgstr "Duplicar elemento"
+
+#: wordpress/elements.php:165
+msgid "Delete element"
+msgstr "Borrar elemento"
+
+#: wordpress/elements.php:161
+msgid "Add video"
+msgstr "Agregar video"
+
+#: wordpress/elements.php:160
+msgid "Add image"
+msgstr "Agregar imagen"
+
+#: wordpress/elements.php:159
+msgid "Add text"
+msgstr "Agregar texto"
+
+#: wordpress/ajax.php:517
+msgid "copy"
+msgstr "copiar"
+
+#: wordpress/ajax.php:516
+msgid "Copy"
+msgstr "Copiar"
+
+#: wordpress/admin.php:295
+msgid "All unsaved changes will be lost. Are you sure you want to leave this page?"
+msgstr "Se perderán los cambios sin guardar. ¿Estás seguro que deseas abandonar esta página?"
+
+#: wordpress/admin.php:294 wordpress/slides.php:19
+msgid "Delete slide"
+msgstr "Borrar diapositiva"
+
+#: wordpress/admin.php:293 wordpress/slides.php:18
+msgid "Duplicate slide"
+msgstr "Duplicar diapositiva"
+
+#: wordpress/admin.php:292
+msgid "Stop preview"
+msgstr "Detener vista previa"
+
+#: wordpress/admin.php:291 wordpress/elements.php:164
+msgid "Live preview"
+msgstr "Previsualizar diapositivas"
+
+#: wordpress/admin.php:290 wordpress/elements.php:254
+msgid "Text element"
+msgstr "Elemento de texto"
+
+#: wordpress/admin.php:289
+msgid "The slider will be deleted. Are you sure?"
+msgstr "El carrusel será borrado. ¿Estás seguro?"
+
+#: wordpress/admin.php:288
+msgid "You can't delete this. You must have at least one slide."
+msgstr "No se puede eliminar esto. Debe tener al menos una diapositiva."
+
+#: wordpress/admin.php:287
+msgid "The slide will be deleted. Are you sure?"
+msgstr "La diapositiva será borrada. ¿Estás seguro?"
+
+#: wordpress/admin.php:286 wordpress/slider.php:273 wordpress/slider.php:290
+#: wordpress/slides.php:17
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: wordpress/admin.php:178
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: wordpress/admin.php:158
+msgid "Edit Slides"
+msgstr "Editar diapositivas"
+
+#: wordpress/admin.php:154
+msgid "Slider Settings"
+msgstr "Ajustes del carrusel"
+
+#: wordpress/admin.php:66
+msgid "When you'll click \"Save Settings\", you'll be able to add slides and elements."
+msgstr "Cuando hagas clic en \"Guardar ajustes\", podrás agregar diapositivas y elementos."
+
+#: wordpress/admin.php:63
+msgid "Something went wrong."
+msgstr "Algo salió mal."
+
+#: wordpress/admin.php:62
+msgid "Operation completed successfully."
+msgstr "Operación completada satisfactoriamente."
+
+#: wordpress/admin.php:59
+msgid "JavaScript must be enabled to view this page correctly."
+msgstr "Debes habilitar JavaScript para ver correctamente esta página."
