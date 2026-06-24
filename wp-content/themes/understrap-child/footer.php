@@ -57,7 +57,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<li><a target="_blank" href="https://transaccional.saludtotal.com.co/Sarlaft/Login.aspx">SARLAFT</a></li>
 							<li><hr></li>
 
-							<li><a href="https://nuevaintranet:446/multimedia/Documentos/PROGRAMADOR_DE_MANTENIMIENTO_PREVENTIVO-2023_JUL.xlsx">Cronograma de Mantenimiento</a></li>
+							<li><a href="https://nuevaintranet:446/multimedia/Documentos/CRONOGRAMA%20DE%20MANTENIMIENTO%20PREVENTIVO%20DE%20EQUIPOS%20INDUSTRIALES.xlsm" download>Cronograma Mant. Equipos Industriales 2026</a></li>
+							<li><a href="https://nuevaintranet:446/multimedia/Documentos/CRONOGRAMA%20MANTENIMIENTO%20PREVENTIVO%20INFRAESTRUCTURA%20FISICA.xlsx" download>Cronograma Mant. Infraestructura Física 2026</a></li>
 							<li><a href="https://nuevaintranet:446/multimedia/Documentos/GIB-FT-0972_CUADRO_DE_MANDO_INTEGRAL_2025.xlsx">Cronograma Biomédica</a></li>
 							<li><a href="https://nuevaintranet:446/multimedia/Documentos/GSI-FT-1522-CRONOGRAMA_DE_MANTENIMIENTO_PREVENTIVO_2025.xlsx">Cronograma Sistemas</a></li>
 							<!--<li><a href="https://nuevaintranet:446/multimedia/Documentos/GSIFT1522_Cronograma_mantenimiento_Febrero_2025.xlsx">Cronograma Sistemas</a></li>-->

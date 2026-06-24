@@ -4,7 +4,7 @@
  *
  * @package Redirection for Contact Form 7
  * @category Contact Form 7 Add-on
- * @author Query Solutions
+ * @author Themeisle
  * @version 0.1.0
  */
 
@@ -34,12 +34,12 @@ function wpcf7_get_extensions() {
 /**
  * Verify nonce
  *
- * @return void
+ * @return int|boolean Returns 1, 2 or false depending on the nonce check result
  */
 function wpcf7_validate_nonce() {
 	$nonce = isset( $_REQUEST['wpcf7r_nonce'] ) && $_REQUEST['wpcf7r_nonce'] ? $_REQUEST['wpcf7r_nonce'] : '';
 
-	$verified = wp_verify_nonce(  $nonce  , 'manage_cf7_redirect');
+	$verified = wp_verify_nonce( $nonce, 'manage_cf7_redirect' );
 
 	if ( $verified ) {
 		return $verified;
@@ -47,17 +47,16 @@ function wpcf7_validate_nonce() {
 
 	header( 'HTTP/1.0 403 Forbidden' );
 	die( 'You are not allowed to access.' );
-
 }
 
 /**
  * Get all available extensions definitions.
  *
- * @return void
+ * @return array - $defaults - extensions array.
  */
 function wpcf7_redirect_get_all_extensions_list() {
 	$defaults = array(
-		'wpcf7r-conditional-logic' => array(
+		'wpcf7r-conditional-logic'    => array(
 			'name'        => 'wpcf7r-conditional-logic',
 			'filename'    => 'class-wpcf7r-conditions.php',
 			'title'       => __( 'Conditional Logic', 'wpcf7-redirect' ),
@@ -65,7 +64,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon7.png',
 			'classname'   => 'WPCF7_Redirect_Conditional_Logic',
 		),
-		'wpcf7r-create-pdf'        => array(
+		'wpcf7r-create-pdf'           => array(
 			'name'        => 'wpcf7r-create-pdf',
 			'filename'    => 'class-wpcf7r-create-pdf',
 			'title'       => __( 'Create PDF', 'wpcf7-redirect' ),
@@ -73,7 +72,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/pdf-icon.png',
 			'classname'   => 'WPCF7R_Action_Create_pdf',
 		),
-		'wpcf7r-paypal'            => array(
+		'wpcf7r-paypal'               => array(
 			'name'        => 'wpcf7r-paypal',
 			'filename'    => 'class-wpcf7r-action-paypal.php',
 			'title'       => __( 'PayPal Integration', 'wpcf7-redirect' ),
@@ -81,7 +80,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/paypal.png',
 			'classname'   => 'WPCF7R_Action_redirect_to_paypal',
 		),
-		'wpcf7r-stripe'            => array(
+		'wpcf7r-stripe'               => array(
 			'name'        => 'wpcf7r-stripe',
 			'filename'    => 'class-wpcf7r-stripe.php',
 			'title'       => __( 'Stripe Integration', 'wpcf7-redirect' ),
@@ -89,7 +88,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/stripe.png',
 			'classname'   => 'WPCF7R_Action_Stripe_Integration',
 		),
-		'wpcf7r-api'               => array(
+		'wpcf7r-api'                  => array(
 			'name'        => 'wpcf7r-api',
 			'filename'    => 'class-wpcf7r-action-api-url.php',
 			'title'       => __( 'API Integrations', 'wpcf7-redirect' ),
@@ -97,7 +96,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon7.png',
 			'classname'   => 'WPCF7R_Action_api_url_request',
 		),
-		'wpcf7r-custom-errors'     => array(
+		'wpcf7r-custom-errors'        => array(
 			'name'        => 'wpcf7r-custom-errors',
 			'filename'    => 'class-wpcf7r-action-custom-errors.php',
 			'title'       => __( 'Custom Validations', 'wpcf7-redirect' ),
@@ -105,7 +104,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon11.png',
 			'classname'   => 'WPCF7R_Action_custom_errors',
 		),
-		'wpcf7r-popup'             => array(
+		'wpcf7r-popup'                => array(
 			'name'        => 'wpcf7r-popup',
 			'filename'    => 'class-wpcf7r-action-popup.php',
 			'title'       => __( 'Thank You Popup', 'wpcf7-redirect' ),
@@ -113,7 +112,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon3.png',
 			'classname'   => 'WPCF7R_Action_Popup',
 		),
-		'wpcf7r-create-post'       => array(
+		'wpcf7r-create-post'          => array(
 			'name'        => 'wpcf7r-create-post',
 			'filename'    => 'class-wpcf7r-action-create-post.php',
 			'title'       => __( 'Create Posts', 'wpcf7-redirect' ),
@@ -121,7 +120,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon12.png',
 			'classname'   => 'WPCF7R_Action_Create_Post',
 		),
-		'wpcf7r-login'             => array(
+		'wpcf7r-login'                => array(
 			'name'        => 'wpcf7r-login',
 			'filename'    => 'class-wpcf7r-action-login.php',
 			'title'       => __( 'Custom Login Forms', 'wpcf7-redirect' ),
@@ -129,7 +128,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon13.png',
 			'classname'   => 'WPCF7R_Action_login',
 		),
-		'wpcf7r-register'          => array(
+		'wpcf7r-register'             => array(
 			'name'        => 'wpcf7r-register',
 			'filename'    => 'class-wpcf7r-action-register.php',
 			'title'       => __( 'Custom Registration Forms', 'wpcf7-redirect' ),
@@ -137,7 +136,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon8.png',
 			'classname'   => 'WPCF7R_Action_Register',
 		),
-		'wpcf7r-mailchimp'         => array(
+		'wpcf7r-mailchimp'            => array(
 			'name'        => 'wpcf7r-mailchimp',
 			'filename'    => 'class-wpcf7r-action-mailchimp.php',
 			'title'       => __( 'Subscribe to Mailchimp', 'wpcf7-redirect' ),
@@ -145,7 +144,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon1.png',
 			'classname'   => 'WPCF7R_Action_Mailchimp',
 		),
-		'wpcf7r-salesforce'        => array(
+		'wpcf7r-salesforce'           => array(
 			'name'        => 'wpcf7r-salesforce',
 			'filename'    => 'class-wpcf7r-action-salesforce.php',
 			'title'       => __( 'Salesforce Integration', 'wpcf7-redirect' ),
@@ -153,7 +152,7 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/salesforce.png',
 			'classname'   => 'WPCF7R_Action_Salesforce',
 		),
-		'wpcf7r-hubspot'           => array(
+		'wpcf7r-hubspot'              => array(
 			'name'        => 'wpcf7r-hubspot',
 			'filename'    => 'class-wpcf7r-action-hubspot.php',
 			'title'       => __( 'Hubspot Integration', 'wpcf7-redirect' ),
@@ -161,58 +160,105 @@ function wpcf7_redirect_get_all_extensions_list() {
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/hubspot.png',
 			'classname'   => 'WPCF7R_Action_Hubspot',
 		),
-		'wpcf7r-twilio'  		   => array(
+		'wpcf7r-monday'               => array(
+			'name'        => 'wpcf7r-monday',
+			'filename'    => 'class-wpcf7r-action-monday.php',
+			'title'       => __( 'Monday Integration', 'wpcf7-redirect' ),
+			'description' => __( 'Send your leads to monday.', 'wpcf7-redirect' ),
+			'icon'        => '',
+			'classname'   => 'WPCF7R_Action_Monday',
+		),
+		'wpcf7r-twilio'               => array(
 			'name'        => 'wpcf7r-twillio',
 			'filename'    => 'class-wpcf7r-action-twilio.php',
 			'title'       => __( 'Send sms with twlio', 'wpcf7-redirect' ),
 			'description' => __( 'Send sms to yourself or your users with twlio.', 'wpcf7-redirect' ),
-			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/twilio-icon.png',
+			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/twilio.png',
 			'classname'   => 'WPCF7R_Action_TwilioSms',
 		),
-		'wpcf7r-slack'  		   => array(
+		'wpcf7r-slack'                => array(
 			'name'        => 'wpcf7r-slack',
 			'filename'    => 'class-wpcf7r-action-slack.php',
 			'title'       => __( 'Send slack message', 'wpcf7-redirect' ),
 			'description' => __( 'Send slack message.', 'wpcf7-redirect' ),
 			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/slack-icon.png',
 			'classname'   => 'WPCF7R_Action_SlackMessage',
-		)
+		),
+		'wpcf7r-eliminate-duplicates' => array(
+			'name'        => 'wpcf7r-eliminate-duplicates',
+			'filename'    => 'class-wpcf7r-action-eliminate-duplicates.php',
+			'title'       => __( 'Eliminate Duplicates', 'wpcf7-redirect' ),
+			'description' => __( 'Eliminate Duplicates.', 'wpcf7-redirect' ),
+			'icon'        => WPCF7_PRO_REDIRECT_BUILD_PATH . 'images/icon11.png',
+			'classname'   => 'WPCF7R_Action_Eliminate_Duplicates',
+		),
 	);
 
-	$api = new Qs_Api();
-
-	$extensions_from_api = $api->get_extensions_definitions();
-
-	return $extensions_from_api ? $extensions_from_api : $defaults;
+	return $defaults;
 }
 
 /**
- * Get promotion banner
+ * Get the slugs of the Pro plugins.
  *
- * @return void
+ * @return string[] The slugs of the plugins.
  */
-function wpcf7r_get_discount_banner() {
-	$api = new Qs_Api();
-
-	$promotion_banner = $api->get_promotion_banner();
-
-	return $promotion_banner;
+function wpcf7_get_pro_plugin_slugs() {
+	return array(
+		'wpcf7r_create_post',
+		'wpcf7r_paypal',
+		'wpcf7r_salesforce',
+		'wpcf7r_api',
+		'wpcf7r_hubspot',
+		'wpcf7r_pdf',
+		'wpcf7r_stripe',
+		'wpcf7r_conditional_logic',
+		'wpcf7r_mailchimp',
+		'wpcf7r_popup',
+		'wpcf7r_twilio',
+		'wpcf7r_firescript',
+	);
 }
 
 /**
- * Get the promotion banner version.
+ * Check if at least one Pro product is active.
  *
- * @return int - banner version.
+ * @return boolean True if at least one Pro product is active.
  */
-function wpcf7r_get_banner_version() {
-	return get_option( 'wpcf7r_banner_version' );
+function wpcf7_has_pro() {
+	$basename_list = array_keys( wpcf7_get_plugins_namespace() );
+
+	foreach ( $basename_list as $basename ) {
+		if (
+			defined( $basename ) &&
+			'valid' === wpcf7r_get_license_status( constant( $basename ) )
+		) {
+			return true;
+		}
+	}
+
+	return false;
 }
 
 /**
- * Turn file path into base64 file.
+ * Return the URL for the upgrade page.
  *
- * @param [string] $path - the path of the file to encode.
- * @return string $base64 - encoded file.
+ * @return string
+ */
+function wpcf7_redirect_upgrade_url() {
+	return tsdk_translate_link( 'https://themeisle.com/plugins/wpcf7-redirect/upgrade' );
+}
+
+/**
+ * Convert a file to base64 encoded string.
+ *
+ * Takes a file path, reads the content of the file, and converts it to a base64 encoded string.
+ * This is useful for embedding file contents in data URIs or for transmitting binary data.
+ *
+ * @since 1.0.0
+ *
+ * @param string $path The absolute path to the file to be encoded.
+ * @return string The base64 encoded content of the file.
+ * @throws Exception If the file does not exist or is not readable.
  */
 function wpcf7r_base_64_file( $path ) {
 
@@ -223,16 +269,18 @@ function wpcf7r_base_64_file( $path ) {
 }
 
 /**
- * Geberal function for getting form actions
+ * General function for retrieving form actions.
  *
- * @param [string] $post_type - the type of the action.
- * @param [string] $count - how many actions to return.
- * @param [string] $post_id - the contact form 7 id.
- * @param [string] $rule_id - the action rule id.
- * @param [string] $extra_args - extra arguments to filter the results.
- * @param [bool]   $active - active actions or non active actions.
+ * This function retrieves actions associated with a Contact Form 7 form based on various filtering parameters.
  *
- * @return [array] - $actions - an array containing actions posts.
+ * @param string $post_type   The type of the action (post type).
+ * @param int    $count       Number of actions to return.
+ * @param int    $post_id     The Contact Form 7 form ID.
+ * @param string $rule_id     The action rule ID.
+ * @param array  $extra_args  Additional arguments to filter the results.
+ * @param bool   $active      Whether to return only active actions (true) or all actions (false).
+ *
+ * @return array An array of action post objects.
  */
 function wpcf7r_get_actions( $post_type, $count, $post_id, $rule_id, $extra_args, $active ) {
 	$actions = array();
@@ -270,17 +318,22 @@ function wpcf7r_get_actions( $post_type, $count, $post_id, $rule_id, $extra_args
 }
 
 /**
- * Check if conditional logic extention is enabled
+ * Check if the conditional logic extension is enabled for Contact Form 7 Redirection.
+ *
+ * This function verifies if the conditional logic class exists and is available for use.
+ * The conditional logic extension allows for creating rules to determine when redirections occur.
+ *
+ * @return bool True if WPCF7_Redirect_Conditional_Logic class exists, false otherwise.
  */
-function conditional_logic_enabled() {
+function wpcf7r_conditional_logic_enabled() {
 	return class_exists( 'WPCF7_Redirect_Conditional_Logic' );
 }
 
 /**
  * Serach for the file in the available directories
  *
- * @param $filename - the name of the fle to return;
- * @return [mixed] - path if the file exists/fals if not.
+ * @param string $filename The name of the file to return.
+ * @return mixed Path if the file exists, false if not.
  */
 function wpcf7r_get_addon_path( $filename ) {
 	if ( file_exists( WPCF7_PRO_REDIRECT_ACTIONS_PATH . $filename ) ) {
@@ -295,13 +348,14 @@ function wpcf7r_get_addon_path( $filename ) {
 /**
  * Get an array and transform it to html attributes
  *
- * @param $attributes
+ * @param array $attributes The attributes to convert to HTML.
+ * @return string The HTML attributes string.
  */
 function wpcf7r_implode_attributes( $attributes ) {
 	$result = join(
 		' ',
 		array_map(
-			function( $key ) use ( $attributes ) {
+			function ( $key ) use ( $attributes ) {
 				if ( is_bool( $attributes[ $key ] ) ) {
 					return $attributes[ $key ] ? $key : '';
 				}
@@ -315,7 +369,9 @@ function wpcf7r_implode_attributes( $attributes ) {
 }
 
 /**
- * Send emails as HTML
+ * Set the content type for Contact Form 7 emails to HTML.
+ *
+ * @return string The content type 'text/html' for HTML formatted emails
  */
 function wpcf7r_send_emails_as_html() {
 	return 'text/html';
@@ -324,17 +380,21 @@ function wpcf7r_send_emails_as_html() {
 /**
  * Helper function
  *
- * @param $name
- * @param $title
- * @param $class
- * @param $order
+ * @param string $name    Action name.
+ * @param string $title   Action title.
+ * @param string $class   Action class.
+ * @param int    $order   Action order.
  */
 function register_wpcf7r_actions( $name, $title, $class, $order = 0 ) {
 	WPCF7r_Utils::register_wpcf7r_actions( $name, $title, $class, $order );
 }
 
 /**
- * Get a list of available actions
+ * Get a list of available actions for Contact Form 7 Redirection plugin.
+ *
+ * @return array Sorted array of available redirection actions.
+ * @uses WPCF7r_Utils::get_wpcf7r_actions() To retrieve the actions.
+ * @uses apply_filters() Filters the actions with 'wpcf7r_get_available_actions'.
  */
 function wpcf7r_get_available_actions() {
 	$actions = WPCF7r_Utils::get_wpcf7r_actions();
@@ -345,11 +405,30 @@ function wpcf7r_get_available_actions() {
 }
 
 /**
+ *  Get a list of available actions handlers for Contact Form 7 Redirection plugin.
+ *
+ *  @return array Sorted array of available redirection actions handlers.
+ */
+function wpcf7r_get_available_actions_handlers() {
+	$available_handlers = array();
+
+	foreach ( wpcf7r_get_available_actions() as $available_action ) {
+		if ( empty( $available_action['handler'] ) || ! is_string( $available_action['handler'] ) ) {
+			continue;
+		}
+		$available_handlers[] = $available_action['handler'];
+	}
+
+	return $available_handlers;
+}
+
+/**
  * Get an instance of contact form 7 redirect form
  *
- * @param $form_id
- * @param $submission
- * @param $validation_obj
+ * @param int           $form_id       The form ID.
+ * @param string|object $submission    The submission data.
+ * @param string|object $validation_obj The validation object.
+ * @return WPCF7R_Form Form instance.
  */
 function get_cf7r_form( $form_id, $submission = '', $validation_obj = '' ) {
 	return new WPCF7R_Form( $form_id, $submission, $validation_obj );
@@ -358,16 +437,17 @@ function get_cf7r_form( $form_id, $submission = '', $validation_obj = '' ) {
 /**
  * Create HTML tooltip
  *
- * @param $tip
+ * @param string $tip The tooltip text.
+ * @return string HTML tooltip.
  */
 function cf7r_tooltip( $tip ) {
-	$tip = esc_attr( $tip );
-
-	return '<i class="dashicons dashicons-editor-help qs-tooltip"><span class="qs-tooltip-inner">' . $tip . '</span></i>';
+	return '<i class="dashicons dashicons-editor-help qs-tooltip"><span class="qs-tooltip-inner">' . wp_kses_post( $tip ) . '</span></i>';
 }
 
 /**
- * Get plugin base url
+ * Returns the base URL of the Redirection for Contact Form 7 plugin.
+ *
+ * @return string The absolute URL to the plugin root directory.
  */
 function wpcf7r_get_redirect_plugin_url() {
 	return WPCF7_PRO_REDIRECT_BASE_URL;
@@ -376,11 +456,12 @@ function wpcf7r_get_redirect_plugin_url() {
 /**
  * Get the value of a single block field
  *
- * @param $key
- * @param $block_key
- * @param $fields
+ * @param string $key       The field key.
+ * @param string $block_key The block key.
+ * @param array  $fields    The fields array.
+ * @return string The field value.
  */
-function block_field_value( $key, $block_key, $fields ) {
+function wpcf7r_block_field_value( $key, $block_key, $fields ) {
 	return isset( $fields['blocks'][ $block_key ][ $key ] ) ? $fields['blocks'][ $block_key ][ $key ] : '';
 }
 
@@ -421,9 +502,12 @@ function wpcf7_remove_contact_form_7_to_api() {
 }
 
 /**
- * Get CF7 version
+ * Get Contact Form 7 version.
+ *
+ * @return string|false The version of Contact Form 7 plugin, or false if not found.
  */
 function wpcf7_get_cf7_ver() {
+	return defined( 'WPCF7_VERSION' ) ? WPCF7_VERSION : false;
 	if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		$wpcf7_path = WPCF7_PRO_REDIRECT_PLUGINS_PATH . 'contact-form-7/wp-contact-form-7.php';
 		$wpcf7_data = get_plugin_data( $wpcf7_path, false, false );
@@ -469,12 +553,15 @@ function wpcf7r_admin_notice() {
 	}
 }
 
-add_shortcode( 'qs_date', 'qs_date' );
+add_shortcode( 'qs_date', 'wpcf7r_qs_date' );
 
 /**
  * Shortcode for creating date
+ *
+ * @param array $atts Shortcode attributes.
+ * @return string The formatted date.
  */
-function qs_date( $atts ) {
+function wpcf7r_qs_date( $atts ) {
 	$atts = shortcode_atts(
 		array(
 			'format' => 'Ydm',
@@ -483,13 +570,15 @@ function qs_date( $atts ) {
 		'wpcf7-redirect'
 	);
 
-	return gmdate( $atts['format'], time() );
+	return esc_html( gmdate( sanitize_text_field( $atts['format'] ), time() ) );
 }
 
 /**
- * Check if WPCF7 Debug
+ * Check if debugging mode is enabled for Redirection for Contact Form 7.
  *
- * @return [boolean]
+ * This function checks if the CF7_REDIRECT_DEBUG constant is defined and set to true.
+ *
+ * @return boolean True if debugging is enabled, false otherwise.
  */
 function is_wpcf7r_debug() {
 	return defined( 'CF7_REDIRECT_DEBUG' ) && CF7_REDIRECT_DEBUG ? true : false;
@@ -498,7 +587,14 @@ function is_wpcf7r_debug() {
 /**
  * Check if the current page is the edit contact form 7 page.
  *
- * @return [boolean] - true if this is the edit screen.
+ * This function determines whether the current admin page is:
+ * - A Contact Form 7 edit page (via GET parameters)
+ * - A Contact Form 7 new form page
+ * - A post edit page for Contact Form 7 post type
+ *
+ * @global WP_Post $post WordPress post object
+ *
+ * @return boolean True if the current screen is a Contact Form 7 edit screen, false otherwise.
  */
 function wpcf7r_is_wpcf7_edit() {
 	global $post;
@@ -509,8 +605,14 @@ function wpcf7r_is_wpcf7_edit() {
 
 	return $wpcf7_page_new_page || $wpcf7_page || $wpcf7_post;
 }
+
 /**
- * Get an array of available countries
+ * Get an array of available countries.
+ *
+ * Returns an associative array of country codes and their localized names.
+ * The country codes are in ISO 3166-1 alpha-2 format (two-letter country codes).
+ *
+ * @return array An associative array of country codes and localized country names.
  */
 function wpcf73_get_country_list() {
 	$country_array = array(
@@ -784,7 +886,12 @@ function wpcf73_get_country_list() {
 }
 
 /**
- * Get a list of languages
+ * Get a list of available languages with their localized names.
+ *
+ * Returns an associative array where keys are language codes (ISO 639-1)
+ * and values are the translated language names.
+ *
+ * @return array Associative array of language codes and their translated names.
  */
 function wpcf7_get_languages_list() {
 	return array(
@@ -801,4 +908,22 @@ function wpcf7_get_languages_list() {
 		'es' => __( 'Spanish', 'wpcf7-redirect' ),
 		'tw' => __( 'Twi', 'wpcf7-redirect' ),
 	);
+}
+
+/**
+ * Unserialize the data.
+ *
+ * @param string|array $data form data.
+ * @return string|array
+ */
+function wpcf7r_safe_unserialize( $data ) {
+	if ( is_serialized( $data ) ) {
+		$unserialize_data = unserialize( $data, array( 'allowed_classes' => false ) ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.serialize_unserialize
+
+		// If the result is an instance of __PHP_Incomplete_Class (due to missing class definitions),
+		// fallback to returning the original serialized string to prevent data loss.
+		$data = $unserialize_data instanceof __PHP_Incomplete_Class ? $data : $unserialize_data;
+	}
+
+	return $data;
 }

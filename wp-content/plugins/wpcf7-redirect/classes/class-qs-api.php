@@ -2,12 +2,20 @@
 /**
  * Class Qs_Api
  * A class used for contacting Query Solutions API
+ *
+ * @package WPCF7_PRO_REDIRECT
  */
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Class for handling API communication with Query Solutions
+ */
 class Qs_Api {
 
+	/**
+	 * Initialize the API client
+	 */
 	public function __construct() {
 		$this->activation_url      = WPCF7_PRO_REDIRECT_PLUGIN_ACTIVATION_URL;
 		$this->changelog_url       = WPCF7_PRO_REDIRECT_PLUGIN_CHANGELOG_URL;
@@ -18,9 +26,36 @@ class Qs_Api {
 		$this->promotions_url      = WPCF7_PRO_REDIRECT_PLUGIN_PROMOTIONS_URL;
 	}
 
+	/**
+	 * Check if extension has an update available
+	 *
+	 * @param object $extension The extension object to check for updates.
+	 * @return string|bool The new version number if update available, empty string otherwise.
+	 */
+	public function extension_has_update( $extension ) {
+		$current_ver = $extension->get_extension_ver();
+
+		$params = array(
+			'action'        => 'license_key_validate',
+			'store_code'    => $this->store_id,
+			'license_key'   => $extension->get_serial(),
+			'domain'        => $this->get_current_domain(),
+			'sku'           => $extension->get_name(),
+			'activation_id' => $extension->get_activation_id(),
+		);
+
+		$results = $this->api_call( $this->activation_url, $params );
+
+		if ( ! is_wp_error( $results ) && isset( $results->data->version ) ) {
+			return floatval( $results->data->version ) > floatval( $current_ver ) ? $results->data->version : '';
+		}
+	}
 
 	/**
 	 * Get action extension changelog
+	 *
+	 * @param string $sku The extension SKU to get changelog for.
+	 * @return mixed The changelog response data.
 	 */
 	public function get_action_changelog( $sku ) {
 
@@ -32,10 +67,11 @@ class Qs_Api {
 
 		return $res;
 	}
+
 	/**
 	 * Get a list of all extensions available on the server.
 	 *
-	 * @return void
+	 * @return array|bool List of extensions or false on failure.
 	 */
 	public function get_extensions_definitions() {
 		$params = array(
@@ -52,7 +88,7 @@ class Qs_Api {
 			$extensions_list = (array) $results->response;
 
 			$extensions_list = array_map(
-				function( $extension_definition ) {
+				function ( $extension_definition ) {
 					return (array) $extension_definition;
 				},
 				$extensions_list
@@ -66,47 +102,12 @@ class Qs_Api {
 	}
 
 	/**
-	 * Check id extensions list update is required.
-	 * Get a list of extensions once a week.
-	 *
-	 * @return boolean - true - get the list.
-	 */
-	private function update_extentions_list() {
-		return isset( $_POST['extensions-updates-check'] ) && $_POST['extensions-updates-check'];
-	}
-
-	/**
-	 * Check if banner update is required.
-	 *
-	 * @return boolean - true - get the banner.
-	 */
-	private function update_promotions() {
-		return isset( $_POST['update-banner'] ) && $_POST['update-banner'];
-	}
-
-	/**
-	 * Get an updated promotion banner.
-	 *
-	 * @return array - the banner html anb version.
-	 */
-	public function get_promotion_banner() {
-		$params = array(
-			'ignore_unknown' => true,
-		);
-
-		if ( $this->update_promotions() ) {
-			$results = $this->api_call( $this->promotions_url, $params );
-
-			if ( ! is_wp_error( $results ) ) {
-				return $results;
-			}
-		}
-
-		return false;
-	}
-
-	/**
 	 * Make the API call
+	 *
+	 * @param string $url The API endpoint URL.
+	 * @param array  $params The parameters to send.
+	 * @param array  $args Optional WordPress HTTP API arguments.
+	 * @return mixed|WP_Error The API response or WP_Error on failure.
 	 */
 	public function api_call( $url, $params, $args = array() ) {
 		$defaults = array(
@@ -154,7 +155,9 @@ class Qs_Api {
 	}
 
 	/**
-	 * Get the domain where the plugin is intalled for authentication
+	 * Get the domain where the plugin is installed for authentication
+	 *
+	 * @return string The current domain name.
 	 */
 	public function get_current_domain() {
 		return isset( $_SERVER['HTTP_HOST'] ) ? $_SERVER['HTTP_HOST'] : '';
@@ -163,9 +166,10 @@ class Qs_Api {
 	/**
 	 * Check if the serial is valid
 	 *
-	 * @param $activation_id
-	 * @param $serial
-	 * @param $sku
+	 * @param string $activation_id The activation ID to validate.
+	 * @param string $serial The serial number to validate.
+	 * @param string $sku Optional. The product SKU. Default empty string.
+	 * @return mixed The validation response.
 	 */
 	public function validate_serial( $activation_id, $serial, $sku = '' ) {
 		$params = array(
@@ -185,9 +189,10 @@ class Qs_Api {
 	/**
 	 * Deactivate the specific activation serial
 	 *
-	 * @param $activation_id
-	 * @param $serial
-	 * @param string        $sku
+	 * @param string $activation_id The activation ID to deactivate.
+	 * @param string $serial The serial number to deactivate.
+	 * @param string $sku Optional. The product SKU. Default empty string.
+	 * @return mixed The deactivation response.
 	 */
 	public function deactivate_liscense( $activation_id, $serial, $sku = '' ) {
 		$params = array(
@@ -204,6 +209,13 @@ class Qs_Api {
 		return $results;
 	}
 
+	/**
+	 * Get the download URL for an extension
+	 *
+	 * @param object $activation_data The activation data object.
+	 * @param string $sku The extension SKU.
+	 * @return string|WP_Error The download URL or error object.
+	 */
 	public function get_extension_download_url( $activation_data, $sku ) {
 		$params = array(
 			'action'        => 'get_extension_file',
@@ -235,7 +247,6 @@ class Qs_Api {
 		$results = wp_remote_post( $url, $args );
 
 		if ( ! is_wp_error( $results ) && $results ) {
-
 			$results = wp_remote_retrieve_body( $results );
 
 			$results = json_decode( $results );
@@ -248,6 +259,13 @@ class Qs_Api {
 		return $results;
 	}
 
+	/**
+	 * Download and get the extension file
+	 *
+	 * @param object $activation_data The activation data object.
+	 * @param string $sku The extension SKU.
+	 * @return string|WP_Error Path to downloaded file or error object.
+	 */
 	public function get_extension_file( $activation_data, $sku ) {
 
 		$download_link = $this->get_extension_download_url( $activation_data, $sku );
@@ -262,8 +280,9 @@ class Qs_Api {
 	/**
 	 * Activate the serial
 	 *
-	 * @param $serial
-	 * @param $sku
+	 * @param string $serial The serial number to activate.
+	 * @param string $sku Optional. The product SKU. Default empty string.
+	 * @return mixed The activation response.
 	 */
 	public function activate_serial( $serial, $sku = '' ) {
 		$params = array(
@@ -280,10 +299,10 @@ class Qs_Api {
 	}
 
 	/**
-	 * Check if the API returned a vlid response
+	 * Check if the API returned a valid response
 	 *
-	 * @param $results
-	 * @return boolean
+	 * @param mixed $results The API response to validate.
+	 * @return boolean True if response is valid, false otherwise.
 	 */
 	public function is_valid_response( $results ) {
 		if ( ! is_wp_error( $results ) ) {
@@ -291,10 +310,8 @@ class Qs_Api {
 				if ( isset( $results->error ) && ! $results->error ) {
 					return true;
 				}
-			} else {
-				if ( isset( $results['error'] ) && ! $results['error'] ) {
+			} elseif ( isset( $results['error'] ) && ! $results['error'] ) {
 					return true;
-				}
 			}
 		}
 		return false;

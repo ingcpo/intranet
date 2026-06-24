@@ -1,0 +1,151 @@
+<!-- wp:separator {"className":"flecha","kioblocks":[]} -->
+<hr class="wp-block-separator flecha"/>
+<!-- /wp:separator -->
+
+<!-- wp:image {"align":"center","id":318,"width":33,"height":33,"sizeSlug":"large","linkDestination":"none","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-aplicativo.png" alt="" class="wp-image-318" width="33" height="33"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_03c87f-64","columns":3,"colLayout":"center-half","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_03c87f-64" class="kt-row-layout-inner kt-layout-id_03c87f-64"><div class="kt-row-column-wrap kt-has-3-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-center-half kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_c296d2-da","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_c296d2-da"><div class="kt-inside-inner-col"></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_d12332-a1","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_d12332-a1"><div class="kt-inside-inner-col"><!-- wp:kadence/tabs {"uniqueID":"_470dcd-ec","tabCount":4,"currentTab":2,"contentBgColor":"#ffffff","contentBorderColor":"#eeeeee","contentBorder":[1,0,0,0],"contentBorderControl":"individual","tabAlignment":"center","blockAlignment":"center","titles":[{"text":"IT Salud IPS\u003cbr\u003eProducción","icon":"fe_airplay","iconSide":"top","onlyIcon":false,"subText":"","anchor":""},{"text":"IT Salud IPS\u003cbr\u003eAngular","icon":"fa_angular","iconSide":"top","onlyIcon":false,"subText":""},{"text":"Reportes\u003cbr\u003eIT Salud IPS","icon":"fe_file","iconSide":"top","onlyIcon":false,"subText":"","anchor":""},{"text":"IT Salud IPS\u003cbr\u003eCapacitación","icon":"fe_edit","iconSide":"top","onlyIcon":false,"subText":"","anchor":""}],"iSize":33,"titleColor":"#abb8c3","titleColorHover":"#81c43b","titleColorActive":"#3a4e81","titleBg":"#ffffff","titleBgHover":"#ffffff","titleBorder":"#ffffff","titleBorderHover":"#81c43b","titleBorderActive":"#3a4e81","titleBorderWidth":[0,0,4,0],"titleBorderRadius":[4,4,0,0],"titlePadding":[8,40,8,40],"titleMargin":[0,8,0,0],"size":1,"sizeType":"em","lineHeight":1.4,"lineType":"em","startTab":1,"className":"it-tabs","kioblocks":[]} -->
+<div class="wp-block-kadence-tabs aligncenter it-tabs"><div class="kt-tabs-wrap kt-tabs-id_470dcd-ec kt-tabs-has-4-tabs kt-active-tab-1 kt-tabs-layout-tabs kt-tabs-tablet-layout-inherit kt-tabs-mobile-layout-inherit kt-tab-alignment-center " style="max-width:none"><ul class="kt-tabs-title-list"><li id="tab-itsaludipsbrproduccin" class="kt-title-item kt-title-item-1 kt-tabs-svg-show-always kt-tabs-icon-side-top kt-tab-title-active"><a href="#tab-itsaludipsbrproduccin" data-tab="1" class="kt-tab-title kt-tab-title-1 "><span style="display:inline-flex;justify-content:center;align-items:center" class="kt-tab-svg-icon kt-tab-svg-icon-fe_airplay kt-title-svg-side-top"><svg style="display:inline-block;vertical-align:middle" viewbox="0 0 24 24" height="33" width="33" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg></span><span class="kt-title-text">IT Salud IPS<br>Producción</span></a></li><li id="tab-itsaludipsbrangular" class="kt-title-item kt-title-item-2 kt-tabs-svg-show-always kt-tabs-icon-side-top kt-tab-title-inactive"><a href="#tab-itsaludipsbrangular" data-tab="2" class="kt-tab-title kt-tab-title-2 "><span style="display:inline-flex;justify-content:center;align-items:center" class="kt-tab-svg-icon kt-tab-svg-icon-fa_angular kt-title-svg-side-top"><svg style="display:inline-block;vertical-align:middle" viewbox="0 0 415 512" height="33" width="33" fill="currentColor" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMinYMin meet"><path d="M169.7 268.1h76.2l-38.1-91.6-38.1 91.6zM207.8 32L0 106.4l31.8 275.7 176 97.9 176-97.9 31.8-275.7L207.8 32zM338 373.8h-48.6l-26.2-65.4H152.6l-26.2 65.4H77.7L207.8 81.5 338 373.8z"></path></svg></span><span class="kt-title-text">IT Salud IPS<br>Angular</span></a></li><li id="tab-reportesbritsaludips" class="kt-title-item kt-title-item-3 kt-tabs-svg-show-always kt-tabs-icon-side-top kt-tab-title-inactive"><a href="#tab-reportesbritsaludips" data-tab="3" class="kt-tab-title kt-tab-title-3 "><span style="display:inline-flex;justify-content:center;align-items:center" class="kt-tab-svg-icon kt-tab-svg-icon-fe_file kt-title-svg-side-top"><svg style="display:inline-block;vertical-align:middle" viewbox="0 0 24 24" height="33" width="33" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg></span><span class="kt-title-text">Reportes<br>IT Salud IPS</span></a></li><li id="tab-itsaludipsbrcapacitacin" class="kt-title-item kt-title-item-4 kt-tabs-svg-show-always kt-tabs-icon-side-top kt-tab-title-inactive"><a href="#tab-itsaludipsbrcapacitacin" data-tab="4" class="kt-tab-title kt-tab-title-4 "><span style="display:inline-flex;justify-content:center;align-items:center" class="kt-tab-svg-icon kt-tab-svg-icon-fe_edit kt-title-svg-side-top"><svg style="display:inline-block;vertical-align:middle" viewbox="0 0 24 24" height="33" width="33" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"></path><polygon points="18 2 22 6 12 16 8 16 8 12 18 2"></polygon></svg></span><span class="kt-title-text">IT Salud IPS<br>Capacitación</span></a></li></ul><div class="kt-tabs-content-wrap"><!-- wp:kadence/tab {"uniqueID":"_0e1615-f3","kioblocks":[]} -->
+<div class="wp-block-kadence-tab kt-tab-inner-content kt-inner-tab-1 kt-inner-tab_0e1615-f3"><div class="kt-tab-inner-content-inner"><!-- wp:kadence/rowlayout {"uniqueID":"_5d0561-b3","columns":3,"colLayout":"equal","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_5d0561-b3" class="kt-row-layout-inner kt-layout-id_5d0561-b3"><div class="kt-row-column-wrap kt-has-3-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_74b0c0-56","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_74b0c0-56"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":700,"width":130,"height":129,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="http://srviisbog16:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-torre-1-3-1.jpg" alt="" class="wp-image-700" width="130" height="129"/></a><figcaption><a href="http://srviisbog16:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre 1 y 3</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_e8bc54-43","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_e8bc54-43"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":701,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://srviisbog15:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-torre-2-1.jpg" alt="" class="wp-image-701"/></a><figcaption><a href="http://srviisbog15:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre 2</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_6ae993-8f","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_6ae993-8f"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":702,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://srviisbog16:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-torre-4-1.jpg" alt="" class="wp-image-702"/></a><figcaption><a href="http://srviisbog16:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre 4</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_b8a357-c7","columns":3,"colLayout":"equal","bottomSep":"","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_b8a357-c7" class="kt-row-layout-inner kt-layout-id_b8a357-c7"><div class="kt-row-column-wrap kt-has-3-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_7408bc-ad","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_7408bc-ad"><div class="kt-inside-inner-col"><!-- wp:image {"id":704,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<figure class="wp-block-image size-large"><a href="http://srviisbog22:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-torre-5u-1.jpg" alt="" class="wp-image-704"/></a><figcaption><a href="http://srviisbog22:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre 5<br>Urgencias</a></figcaption></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_ea2b28-a6","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_ea2b28-a6"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":705,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://srviisbog15:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-torre-5h-1.jpg" alt="" class="wp-image-705"/></a><figcaption><a href="http://srviisbog15:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre 5<br>Hospitalización</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_41730e-de","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_41730e-de"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":706,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://srviisbog17:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-torre-6-1.jpg" alt="" class="wp-image-706"/></a><figcaption><a href="http://srviisbog17:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre 6</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_b5bffe-a5","columns":3,"colLayout":"equal","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_b5bffe-a5" class="kt-row-layout-inner kt-layout-id_b5bffe-a5"><div class="kt-row-column-wrap kt-has-3-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"id":3,"uniqueID":"_96bcfd-f9","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_96bcfd-f9"><div class="kt-inside-inner-col"><!-- wp:image {"id":4861,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<figure class="wp-block-image size-full"><a href="http://srviisbog17:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2022/07/Mesa-de-trabajo-2.png" alt="" class="wp-image-4861"/></a><figcaption><a href="http://srviisbog17:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre 7</a></figcaption></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_1686b9-2e","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_1686b9-2e"><div class="kt-inside-inner-col"><!-- wp:image {"id":554,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<figure class="wp-block-image size-full"><a href="http://srviisbog18:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-torre-6.jpg" alt="" class="wp-image-554"/></a><figcaption><a href="http://srviisbog18:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion">Torre Requisiciones</a></figcaption></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_949cbe-43","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_949cbe-43"><div class="kt-inside-inner-col"></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/tab -->
+
+<!-- wp:kadence/tab {"id":2,"uniqueID":"_c8c364-8a","kioblocks":[]} -->
+<div class="wp-block-kadence-tab kt-tab-inner-content kt-inner-tab-2 kt-inner-tab_c8c364-8a"><div class="kt-tab-inner-content-inner"><!-- wp:kadence/rowlayout {"uniqueID":"_a709e4-60","colLayout":"equal","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_a709e4-60" class="kt-row-layout-inner kt-layout-id_a709e4-60"><div class="kt-row-column-wrap kt-has-2-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_5b4757-b3","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_5b4757-b3"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":9163,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="http://srviisbog10/SaludIPS_V3_Front/#/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2025/02/icono-angular.png" alt="" class="wp-image-9163"/></a><figcaption><a href="http://srviisbog10/SaludIPS_V3_Front/#/login" target="_blank" rel="noreferrer noopener">Angular Producción</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_2c4c02-c7","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_2c4c02-c7"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1226,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="http://srviispncap001/FrontSaludIPSV2/#/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-ambiente.png" alt="" class="wp-image-1226"/></a><figcaption><a href="http://srviispncap001/FrontSaludIPSV2/#/login" target="_blank" rel="noreferrer noopener">Angular Capacitaciones</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/tab -->
+
+<!-- wp:kadence/tab {"id":3,"uniqueID":"_9f7bc2-99","kioblocks":[]} -->
+<div class="wp-block-kadence-tab kt-tab-inner-content kt-inner-tab-3 kt-inner-tab_9f7bc2-99"><div class="kt-tab-inner-content-inner"><!-- wp:kadence/rowlayout {"uniqueID":"_702063-84","columns":4,"colLayout":"equal","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_702063-84" class="kt-row-layout-inner kt-layout-id_702063-84"><div class="kt-row-column-wrap kt-has-4-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_e50df8-4e","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_e50df8-4e"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1222,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://nuevaintranet/intranet/informes/"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-informes.png" alt="" class="wp-image-1222"/></a><figcaption><a href="http://nuevaintranet/intranet/informes/" data-type="page" data-id="1123">Informes</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_346d0a-ba","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_346d0a-ba"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1221,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://nuevaintranet/intranet/tableros-de-control/"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-tableros.png" alt="" class="wp-image-1221"/></a><figcaption><a href="http://nuevaintranet/intranet/tableros-de-control/" data-type="page" data-id="1128">Tableros de control</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_e298ec-a1","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_e298ec-a1"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1219,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://reportesst/Reports/Pages/Report.aspx?ItemPath=%2fProduccion%2fSaludTotal%2fDetalleCargosPaquetes&amp;SelectedSubTabId=GenericPropertiesTab" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-facturacion-copia.png" alt="" class="wp-image-1219"/></a><figcaption><a href="http://reportesst/Reports/Pages/Report.aspx?ItemPath=%2fProduccion%2fSaludTotal%2fDetalleCargosPaquetes&amp;SelectedSubTabId=GenericPropertiesTab" target="_blank" rel="noreferrer noopener">Detalles paquete<br>IT Salud IPS</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"uniqueID":"_a5ec28-44","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_a5ec28-44"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1217,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://reportesst/Reports/Pages/Report.aspx?ItemPath=%2fProduccion%2fBasico%2fInfManillasIdentificacion" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-manillas_1.png" alt="" class="wp-image-1217"/></a><figcaption><a href="http://reportesst/Reports/Pages/Report.aspx?ItemPath=%2fProduccion%2fBasico%2fInfManillasIdentificacion" target="_blank" rel="noreferrer noopener">Manillas<br>IT Salud IPS</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/tab -->
+
+<!-- wp:kadence/tab {"id":4,"uniqueID":"_226baf-57","kioblocks":[]} -->
+<div class="wp-block-kadence-tab kt-tab-inner-content kt-inner-tab-4 kt-inner-tab_226baf-57"><div class="kt-tab-inner-content-inner"><!-- wp:kadence/rowlayout {"uniqueID":"_00ff12-b6","columns":3,"colLayout":"equal","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_00ff12-b6" class="kt-row-layout-inner kt-layout-id_00ff12-b6"><div class="kt-row-column-wrap kt-has-3-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_a2dad9-01","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_a2dad9-01"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1224,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://nuevaintranet/intranet/manuales-it-salud-ips/"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-manuales.png" alt="" class="wp-image-1224"/></a><figcaption><a href="http://nuevaintranet/intranet/manuales-it-salud-ips/" data-type="page" data-id="1125">Manuales<br>IT Salud IPS</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_bc8bfd-ac","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_bc8bfd-ac"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1225,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://nuevaintranet/intranet/capacitaciones-it-salud-ips/" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-capacitaciones.png" alt="" class="wp-image-1225"/></a><figcaption><a href="http://nuevaintranet/intranet/capacitaciones-it-salud-ips/" target="_blank" rel="noreferrer noopener">Capacitaciones<br>IT Salud IPS</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_09d930-c6","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_09d930-c6"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":1226,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://srviispncap001:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-ambiente.png" alt="" class="wp-image-1226"/></a><figcaption><a href="http://srviispncap001:81/Produccion/LogOnForm.aspx?ReturnUrl=%2fProduccion" target="_blank" rel="noreferrer noopener">Ambiente<br>Capacitación</a></figcaption></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/tab --></div></div></div>
+<!-- /wp:kadence/tabs --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_5f49ce-37","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_5f49ce-37"><div class="kt-inside-inner-col"></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:paragraph {"kioblocks":[]} -->
+<p></p>
+<!-- /wp:paragraph -->

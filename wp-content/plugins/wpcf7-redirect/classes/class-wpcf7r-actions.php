@@ -2,12 +2,63 @@
 /**
  * Class WPCF7R_Actions
  * A helper class for managing form actions
+ *
+ * @package WPCF7Redirect
  */
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Class WPCF7R_Actions
+ * A helper class for managing form actions
+ *
+ * @package WPCF7Redirect
+ */
 class WPCF7R_Actions {
+
+	/**
+	 * The post type of the action
+	 *
+	 * @var string
+	 */
+	public $post_type;
+
+	/**
+	 * The post id of the form
+	 *
+	 * @var int
+	 */
+	public $wpcf7_post_id;
+
+	/**
+	 * The actions that are relevant to this form
+	 *
+	 * @var array
+	 */
+	public $actions;
+
+	/**
+	 * The html helper class
+	 *
+	 * @var WPCF7R_Html
+	 */
+	public $html;
+
+	/**
+	 * The form object
+	 *
+	 * @var object
+	 */
+	public $form;
+
+	/**
+	 * Class constructor
+	 *
+	 * @param int    $post_id - the post id of the form.
+	 * @param object $wpcf7r_form - the form object.
+	 */
 	public function __construct( $post_id, $wpcf7r_form ) {
+		$this->form          = $wpcf7r_form;
 		$this->post_type     = 'wpcf7r_action';
 		$this->wpcf7_post_id = $post_id;
 		$this->html          = new WPCF7R_Html( WPCF7R_Form::$mail_tags );
@@ -16,10 +67,11 @@ class WPCF7R_Actions {
 	/**
 	 * Get all actions that are relevant to this form
 	 *
-	 * @param $rule_id
-	 * @param integer $count
-	 * @param boolean $active
-	 * @param array   $args
+	 * @param int     $rule_id - the rule id.
+	 * @param integer $count - the number of actions to return.
+	 * @param boolean $active - whether to return only active actions.
+	 * @param array   $args - extra arguments to pass to the query.
+	 * @return array The actions relevant to this form.
 	 */
 	public function get_actions( $rule_id, $count = -1, $active = false, $args = array() ) {
 		$this->actions = array();
@@ -34,7 +86,7 @@ class WPCF7R_Actions {
 
 				if ( is_object( $action ) && ! is_wp_error( $action ) ) {
 					$actions[ $action->priority . '_' . $counter ] = $action;
-					$counter++;
+					++$counter;
 				}
 			}
 		}
@@ -48,10 +100,11 @@ class WPCF7R_Actions {
 	/**
 	 * Get and return the posts that are used as actions
 	 *
-	 * @param $rule_id
-	 * @param integer $count
-	 * @param boolean $active
-	 * @param array   $extra_args
+	 * @param int     $rule_id - the rule id.
+	 * @param integer $count - the number of actions to return.
+	 * @param boolean $active - whether to return only active actions.
+	 * @param array   $extra_args - extra arguments to pass to the query.
+	 * @return array The posts that are used as actions.
 	 */
 	public function get_action_posts( $rule_id, $count = -1, $active = false, $extra_args = array() ) {
 
@@ -91,19 +144,20 @@ class WPCF7R_Actions {
 		$options['mail_tags']        = WPCF7R_Form::$mail_tags;
 
 		echo '<script>';
-			echo 'var wpcfr_template = ' . json_encode( $options );
+			echo 'var wpcfr_template = ' . wp_json_encode( $options );
 		echo '</script>';
 	}
 
 	/**
-	 * Get form values
+	 * Get form values.
+	 *
+	 * @return array Default field values.
 	 */
 	public function get_plugin_default_fields_values() {
 
 		$fields = WPCF7r_Form_Helper::get_plugin_default_fields();
 
 		foreach ( $fields as $field ) {
-			// get_post_meta( $this->wpcf7_post_id, '_wpcf7_redirect_' . $field['name'] , true );
 			$values[ $field['name'] ] = '';
 		}
 		return $values;

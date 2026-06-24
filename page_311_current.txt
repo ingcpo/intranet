@@ -1,0 +1,425 @@
+<!-- wp:separator {"className":"flecha","kioblocks":[]} -->
+<hr class="wp-block-separator flecha"/>
+<!-- /wp:separator -->
+
+<!-- wp:image {"align":"center","id":318,"width":33,"height":33,"sizeSlug":"large","linkDestination":"none","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-aplicativo.png" alt="" class="wp-image-318" width="33" height="33"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_424064-e7","columns":3,"colLayout":"center-half","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_424064-e7" class="kt-row-layout-inner kt-layout-id_424064-e7"><div class="kt-row-column-wrap kt-has-3-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-center-half kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_162010-3c","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_162010-3c"><div class="kt-inside-inner-col"></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_fd3342-21","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_fd3342-21"><div class="kt-inside-inner-col"><!-- wp:heading {"textAlign":"center","className":"barra gris escala-3","kioblocks":[]} -->
+<h2 class="has-text-align-center barra gris escala-3" id="estimado-colaborador-es-esta-seccion-encontraras-los-aplicativos-que-requieres-para-realizar-tu-trabajo-para-ingresar-a-cada-uno-solo-debes-dar-clic-sobre-el-nombre">Estimado colaborador, es esta sección encontrarás los aplicativos que requieres para realizar tu trabajo. Para ingresar a cada uno solo debes dar clic sobre el nombre.</h2>
+<!-- /wp:heading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_652968-5c","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_652968-5c"><div class="kt-inside-inner-col"></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_cbe959-5c","columns":1,"colLayout":"equal","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_cbe959-5c" class="kt-row-layout-inner kt-layout-id_cbe959-5c"><div class="kt-row-column-wrap kt-has-1-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_4a5aef-52","className":"col-contenido","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_4a5aef-52 col-contenido"><div class="kt-inside-inner-col"><!-- wp:kadence/rowlayout {"uniqueID":"_e6ecc0-e8","columns":5,"colLayout":"equal","bottomSep":"","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_e6ecc0-e8" class="kt-row-layout-inner kt-layout-id_e6ecc0-e8"><div class="kt-row-column-wrap kt-has-5-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_ab7c7a-93","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_ab7c7a-93 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://nuevaintranet/intranet/antes-de-diligencia-el-formato-ruaf-tenga-en-cuenta/" target="_blank" rel="noreferrer noopener">Ruaf Web</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":320,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://nuevaintranet/intranet/antes-de-diligencia-el-formato-ruaf-tenga-en-cuenta/" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/logo-Ruaf-Web.jpg" alt="" class="wp-image-320"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_f87cf9-a5","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_f87cf9-a5 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="http://nuevaintranet/intranet/fichas-de-notificacion-epidemiologica/" target="_blank" rel="noreferrer noopener">Fichas de Notificación</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":708,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://nuevaintranet/intranet/fichas-de-notificacion-epidemiologica/" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-epidemiologia.jpg" alt="" class="wp-image-708"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_358101-f2","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_358101-f2 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://imgvs.virreysolisips.com.co:5021/login" target="_blank" rel="noreferrer noopener">Carestream Virrey Solis</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":324,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://imgvs.virreysolisips.com.co:5021/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-Carestream.jpg" alt="" class="wp-image-324"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"uniqueID":"_2fb14b-36","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_2fb14b-36 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://laboratorio.cpo.com.co:8800" target="_blank" rel="noreferrer noopener">Exámenes de laboratorio</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":325,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://laboratorio.cpo.com.co:8800" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-examenes-laboratorio.jpg" alt="" class="wp-image-325"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":5,"uniqueID":"_d9c112-e7","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-5 kadence-column_d9c112-e7 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://stvirtual.saludtotal.com.co/vpn/index.html" target="_blank" rel="noreferrer noopener">Citrix Salud Total</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":410,"sizeSlug":"large","linkDestination":"none","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://stvirtual.saludtotal.com.co/vpn/index.html" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-citrix-salud-total.jpg" alt="" class="wp-image-410"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_2de726-77","columns":5,"colLayout":"equal","topPadding":50,"kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_2de726-77" class="kt-row-layout-inner kt-layout-id_2de726-77"><div class="kt-row-column-wrap kt-has-5-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_474c4e-26","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_474c4e-26 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://laboratorio.cpo.com.co:8800" target="_blank" rel="noreferrer noopener">Laboratorios críticos</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":330,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://laboratorio.cpo.com.co:8800" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-laboratorios-criticos.jpg" alt="" class="wp-image-330"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_82d0fb-cf","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_82d0fb-cf card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://www.entregaresultados.net/WebsiteResultados/PortalIdime/index.php?tipo=Empresa&amp;Itemid=602" target="_blank" rel="noreferrer noopener">Resultados Idime</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":331,"sizeSlug":"large","linkDestination":"none","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://www.entregaresultados.net/WebsiteResultados/PortalIdime/index.php?tipo=Empresa&amp;Itemid=602" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-resultados-IDIME.jpg" alt="" class="wp-image-331"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_52de90-98","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_52de90-98 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="http://nuevaintranet/intranet/prescripcion-no-pbs/">Prescripción NO PBS</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":332,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="http://nuevaintranet/intranet/prescripcion-no-pbs/"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/prescripcion-MIPRES.jpg" alt="" class="wp-image-332"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"uniqueID":"_913686-bd","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_913686-bd card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://10.10.15.81:8443/MediWorksLightWeb/login" target="_blank" rel="noreferrer noopener">Medilab</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":334,"sizeSlug":"large","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://10.10.15.81:8443/MediWorksLightWeb/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-medilab.jpg" alt="" class="wp-image-334"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":5,"uniqueID":"_d07349-2b","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-5 kadence-column_d07349-2b card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://resultadosdx.clinicanogales.com/MediWorksLightWeb/login" target="_blank" rel="noreferrer noopener">Medilab Nogales</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":336,"sizeSlug":"large","linkDestination":"none","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://resultadosdx.clinicanogales.com/MediWorksLightWeb/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-medilab-nogales-.jpg" alt="" class="wp-image-336"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_e24f9b-6c","columns":5,"colLayout":"equal","topPadding":50,"kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_e24f9b-6c" class="kt-row-layout-inner kt-layout-id_e24f9b-6c"><div class="kt-row-column-wrap kt-has-5-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_cd7966-6b","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_cd7966-6b card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://nuevaintranet:446/multimedia/Documentos/Disponibilidad_Admisiones/Disponibilidad_Junio_2026.pdf" target="_blank" rel="noreferrer noopener">Disponibilidad Asistencial</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":1687,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="https://nuevaintranet:446/multimedia/Documentos/Disponibilidad_Admisiones/Disponibilidad_Junio_2026.pdf" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/05/icono-disponibilidad-asistencial-min.png" alt="" class="wp-image-1687"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_efabaa-0f","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_efabaa-0f card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="http://nuevaintranet/SbarEnfermeria.1.1/login.php" target="_blank" rel="noreferrer noopener">Entrega y recibo de turno Enfermería</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":2981,"width":125,"height":125,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-thumbnail is-resized"><a href="http://nuevaintranet/SbarEnfermeria.1.1/login.php" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/08/klipartz.com_-150x150.png" alt="" class="wp-image-2981" width="125" height="125"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_874fed-86","textAlign":["center","",""],"className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_874fed-86 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="http://nuevaintranet/SbarMedico.1.3/login.php" target="_blank" rel="noreferrer noopener">Entrega y recibo de turno Médicos</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":2749,"width":125,"height":125,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-thumbnail is-resized"><a href="http://nuevaintranet/SbarMedico.1.3/login.php" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/07/diagnosis-150x150.png" alt="" class="wp-image-2749" width="125" height="125"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"borderWidth":[0,0,0,0],"tabletBorderWidth":["","","",""],"mobileBorderWidth":["","","",""],"borderRadius":[0,0,0,0],"uniqueID":"_622a1f-4c","backgroundImg":[{"bgImg":"","bgImgID":"","bgImgSize":"cover","bgImgPosition":"center center","bgImgAttachment":"scroll","bgImgRepeat":"no-repeat"}],"textAlign":["","",""],"shadow":[{"color":"#000000","opacity":0.2,"spread":0,"blur":14,"hOffset":0,"vOffset":0,"inset":false}],"className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_622a1f-4c card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://nuevaintranet/SbarTerapia.1.1/" target="_blank" rel="noreferrer noopener">Entrega y recibo de turno Terapia y Rehabilitación</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":9175,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-thumbnail"><a href="https://nuevaintranet/SbarTerapia.1.1/" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2025/02/icono_cambio-150x150.png" alt="" class="wp-image-9175"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":5,"uniqueID":"_7596d5-fc","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-5 kadence-column_7596d5-fc card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="http://imagenesdiagnosticas.cpo.com.co:8080/Mediweb/login" target="_blank" rel="noreferrer noopener">Examenes Antiguos</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"id":4446,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<figure class="wp-block-image size-full"><a href="http://imagenesdiagnosticas.cpo.com.co:8080/Mediweb/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2022/05/Icono-RX-1.png" alt="" class="wp-image-4446"/></a></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_71b320-25","columns":5,"colLayout":"equal","bottomSep":"","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_71b320-25" class="kt-row-layout-inner kt-layout-id_71b320-25"><div class="kt-row-column-wrap kt-has-5-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"id":3,"uniqueID":"_b70ce8-2f","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_b70ce8-2f card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://10.10.105.14:8443/MediWorksLightWebLumen/login" target="_blank" rel="noreferrer noopener">Cosultas Antes de Contingencia</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":334,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="https://10.10.105.14:8443/MediWorksLightWebLumen/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-medilab.jpg" alt="" class="wp-image-334"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"uniqueID":"_26c38e-3a","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_26c38e-3a card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://clinicanogales.qhorte.com" target="_blank" rel="noreferrer noopener">Laboratorios Patologías Nogales</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":5319,"width":125,"height":125,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-thumbnail is-resized"><a href="https://clinicanogales.qhorte.com" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2022/12/microscopio-150x150.png" alt="" class="wp-image-5319" width="125" height="125"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":5,"uniqueID":"_f4563c-02","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-5 kadence-column_f4563c-02 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://resultadosdeimagenes.imexhs.com" target="_blank" rel="noreferrer noopener">Imexhs - Aquila</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"id":6254,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<figure class="wp-block-image size-thumbnail margenIconos"><a href="https://resultadosdeimagenes.imexhs.com" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2023/01/aquila-256x256-1-150x150.png" alt="" class="wp-image-6254"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"oculto","kioblocks":[]} -->
+<p class="oculto"><a href="https://10.10.105.25/login">https://10.10.105.25/login</a></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"uniqueID":"_bc94a7-05","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_bc94a7-05 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="http://10.10.105.20:8080/InfMedilab/" target="_blank" rel="noreferrer noopener">Informes Imágenes diagnósticas Medilab</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"id":831,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<figure class="wp-block-image size-thumbnail margenIconos"><a href="http://10.10.105.20:8080/InfMedilab/" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2021/03/icono-homologador-150x150.png" alt="" class="wp-image-831"/></a></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":5,"uniqueID":"_9f5fc4-7f","direction":["vertical","",""],"className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-5 kadence-column_9f5fc4-7f kb-section-dir-vertical card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://nuevaintranet/Stickers/" target="_blank" rel="noreferrer noopener">Generador Stickers</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"id":725,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<figure class="wp-block-image size-thumbnail margenIconos"><a href="https://nuevaintranet/Stickers/" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2021/02/icono-escaner-150x150.jpg" alt="" class="wp-image-725"/></a></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_f18dab-81","columns":5,"colLayout":"equal","topPadding":50,"kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_f18dab-81" class="kt-row-layout-inner kt-layout-id_f18dab-81"><div class="kt-row-column-wrap kt-has-5-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_433801-90","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_433801-90 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://nuevaintranet/intranet/boletin-farmaceutico/" target="_blank" rel="noreferrer noopener">Boletín Farmaceútico</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":8916,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-thumbnail"><a href="https://nuevaintranet/intranet/boletin-farmaceutico/" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2024/12/Sin-titulo-5_Mesa-de-trabajo-1-150x150.png" alt="" class="wp-image-8916"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_076bdd-09","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_076bdd-09 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://cpolaya-my.sharepoint.com/:x:/g/personal/coorbiomedica_cpolaya_com_co/EdzWq6Gbav5NqXX3xkahWlkBSycFN5A5g4ZwDS5HPjKPXw?e=OcqgC3" target="_blank" rel="noreferrer noopener">Biomedica</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":335,"sizeSlug":"thumbnail","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-thumbnail"><a href="https://cpolaya-my.sharepoint.com/:x:/g/personal/coorbiomedica_cpolaya_com_co/EdzWq6Gbav5NqXX3xkahWlkBSycFN5A5g4ZwDS5HPjKPXw?e=OcqgC3" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2021/01/icono-biomedica-150x150.jpg" alt="" class="wp-image-335"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_81b73c-66","textAlign":["center","",""],"className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_81b73c-66 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://latam.sdxsohealth.com/" target="_blank" rel="noreferrer noopener">Monitoreo de Dietas</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"id":9502,"sizeSlug":"medium","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<figure class="wp-block-image size-medium margenIconos"><a href="https://latam.sdxsohealth.com/" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2025/05/sohealth-300x196.png" alt="" class="wp-image-9502"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"oculto","kioblocks":[]} -->
+<p class="oculto"><a href="https://beeitnutriunlatam.azurewebsites.net/">https://beeitnutriunlatam.azurewebsites.net/</a></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"borderWidth":[0,0,0,0],"tabletBorderWidth":["","","",""],"mobileBorderWidth":["","","",""],"borderRadius":[0,0,0,0],"uniqueID":"_58dbfe-e0","backgroundImg":[{"bgImg":"","bgImgID":"","bgImgSize":"cover","bgImgPosition":"center center","bgImgAttachment":"scroll","bgImgRepeat":"no-repeat"}],"textAlign":["","",""],"shadow":[{"color":"#000000","opacity":0.2,"spread":0,"blur":14,"hOffset":0,"vOffset":0,"inset":false}],"className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_58dbfe-e0 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://imgvs.virreysolisips.com.co:5021/login" target="_blank" rel="noreferrer noopener">Imexhs- Virrey Solís</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":9605,"sizeSlug":"full","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-full"><a href="https://imgvs.virreysolisips.com.co:5021/login" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2025/06/imex2.png" alt="" class="wp-image-9605"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":5,"uniqueID":"_805ebb-17","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-5 kadence-column_805ebb-17 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://nuevaintranet/intranet/covid-19/" target="_blank" rel="noreferrer noopener">Covid - 19</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"id":9881,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<figure class="wp-block-image size-full"><a href="https://nuevaintranet/intranet/covid-19/" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2025/10/coronavirus.png" alt="" class="wp-image-9881"/></a></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_882ff5-f9","columns":5,"colLayout":"equal","topPadding":50,"kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_882ff5-f9" class="kt-row-layout-inner kt-layout-id_882ff5-f9"><div class="kt-row-column-wrap kt-has-5-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_805184-0a","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_805184-0a card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://www.xcustomer360app.com/st4g/cpoantibiotico/cpo-antibioticos?u=sp" target="_blank" rel="noreferrer noopener">Diligenciamiento de antibiótico</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":10387,"sizeSlug":"large","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-large"><a href="https://www.xcustomer360app.com/st4g/cpoantibiotico/cpo-antibioticos?u=sp" target="_blank" rel="noopener"><img src="https://nuevaintranet/intranet/wp-content/uploads/2026/03/4790279_49097-1024x1024.jpg" alt="" class="wp-image-10387"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_1a1dcb-17","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_1a1dcb-17 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://nuevaintranet:446/multimedia/Documentos/Comunicaciones/Rotafolio_escalas.pdf" target="_blank" rel="noreferrer noopener">Herramienta para guía y mejora de registros y escalas clínicas</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:kadence/image {"align":"center","id":10385,"sizeSlug":"large","link":"https://nuevaintranet:446/multimedia/Documentos/Comunicaciones/Rotafolio_escalas.pdf","linkTarget":true,"linkDestination":"custom","uniqueID":"_365aa8-a4","kioblocks":[]} -->
+<div class="wp-block-kadence-image kb-image_365aa8-a4"><figure class="aligncenter size-large"><a href="https://nuevaintranet:446/multimedia/Documentos/Comunicaciones/Rotafolio_escalas.pdf" class="kb-advanced-image-link" target="_blank" rel="noopener noreferrer"><img src="https://nuevaintranet/intranet/wp-content/uploads/2026/03/229411677_db75a15e-1093-41ff-848f-38b9b9e43b0b-1024x1024.jpg" alt="" class="kb-img wp-image-10385"/></a></figure></div>
+<!-- /wp:kadence/image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"uniqueID":"_718c0b-77","textAlign":["center","",""],"className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-3 kadence-column_718c0b-77 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="http://10.10.15.118/contingencia_cpo/" target="_blank" rel="noreferrer noopener">Contingencia Urgencia</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":10400,"sizeSlug":"large","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-large"><a href="http://10.10.15.118/contingencia_cpo/" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2026/04/contingencia_urgencia.png" alt="" class="wp-image-10400"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":4,"borderWidth":[0,0,0,0],"tabletBorderWidth":["","","",""],"mobileBorderWidth":["","","",""],"borderRadius":[0,0,0,0],"uniqueID":"_051d39-0b","backgroundImg":[{"bgImg":"","bgImgID":"","bgImgSize":"cover","bgImgPosition":"center center","bgImgAttachment":"scroll","bgImgRepeat":"no-repeat"}],"textAlign":["","",""],"shadow":[{"color":"#000000","opacity":0.2,"spread":0,"blur":14,"hOffset":0,"vOffset":0,"inset":false}],"className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-4 kadence-column_051d39-0b card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} -->
+<div class="wp-block-button c-btn-azul"><a class="wp-block-button__link" href="https://10.10.63.50/contingencia_cpo" target="_blank" rel="noreferrer noopener">Contingencia Consulta Externa</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"align":"center","id":10401,"sizeSlug":"large","linkDestination":"custom","className":"margenIconos","kioblocks":[]} -->
+<div class="wp-block-image margenIconos"><figure class="aligncenter size-large"><a href="https://10.10.63.50/contingencia_cpo" target="_blank" rel="noopener"><img src="http://nuevaintranet/intranet/wp-content/uploads/2026/04/contingencia_consulta_externa.png" alt="" class="wp-image-10401"/></a></figure></div>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":5,"uniqueID":"_0a978a-b2","className":"card-aplicativo","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-5 kadence-column_0a978a-b2 card-aplicativo"><div class="kt-inside-inner-col"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"kioblocks":[]} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"c-btn-azul","kioblocks":[]} /--></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"id":10205,"sizeSlug":"full","linkDestination":"custom","kioblocks":[]} -->
+<figure class="wp-block-image size-full"><img src="https://nuevaintranet/intranet/wp-content/uploads/2026/01/htmlRecurso-3.png" alt="" class="wp-image-10205"/></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"_ee21d2-78","colLayout":"equal","kioblocks":[]} -->
+<div class="wp-block-kadence-rowlayout alignnone"><div id="kt-layout-id_ee21d2-78" class="kt-row-layout-inner kt-layout-id_ee21d2-78"><div class="kt-row-column-wrap kt-has-2-columns kt-gutter-default kt-v-gutter-default kt-row-valign-top kt-row-layout-equal kt-tab-layout-inherit kt-m-colapse-left-to-right kt-mobile-layout-row"><!-- wp:kadence/column {"uniqueID":"_6580ef-88","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-1 kadence-column_6580ef-88"><div class="kt-inside-inner-col"><!-- wp:kadence/accordion {"uniqueID":"_347769-23","contentBorder":[0,0,0,0],"titleStyles":[{"size":[18,"",""],"sizeType":"px","lineHeight":[24,"",""],"lineType":"px","letterSpacing":"","family":"","google":"","style":"","weight":"","variant":"","subset":"","loadGoogle":true,"padding":[10,14,10,14],"marginTop":0,"color":"#555555","background":"#f2f2f2","border":["#555555","#555555","#555555","#555555"],"borderRadius":[0,0,0,0],"borderWidth":[0,0,0,0],"colorHover":"#ffffff","backgroundHover":"#43b649","borderHover":["#43b649","#43b649","#43b649","#43b649"],"colorActive":"#ffffff","backgroundActive":"#43b649","borderActive":["#43b649","#43b649","#43b649","#43b649"],"textTransform":""}],"kioblocks":[]} -->
+<div class="wp-block-kadence-accordion alignnone"><div class="kt-accordion-wrap kt-accordion-wrap kt-accordion-id_347769-23 kt-accordion-has-2-panes kt-active-pane-0 kt-accordion-block kt-pane-header-alignment-left kt-accodion-icon-style-basic kt-accodion-icon-side-right" style="max-width:none"><div class="kt-accordion-inner-wrap" data-allow-multiple-open="false" data-start-open="0"><!-- wp:kadence/pane {"uniqueID":"_0cd7aa-25","kioblocks":[]} -->
+<div class="wp-block-kadence-pane kt-accordion-pane kt-accordion-pane-1 kt-pane_0cd7aa-25"><div class="kt-accordion-header-wrap"><button class="kt-blocks-accordion-header kt-acccordion-button-label-show"><span class="kt-blocks-accordion-title-wrap"><span class="kt-blocks-accordion-title">Laboratorios Regional</span></span><span class="kt-blocks-accordion-icon-trigger"></span></button></div><div class="kt-accordion-panel"><div class="kt-accordion-panel-inner"><!-- wp:kadence/iconlist {"items":[{"icon":"fe_checkCircle","link":"","target":"_self","size":20,"width":2,"text":"\u003ca href=\u0022http://10.10.105.19:8102\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer noopener\u0022\u003eLaboratorio Región DC\u003c/a\u003e","color":"","background":"","border":"","borderRadius":0,"padding":5,"borderWidth":1,"style":"default","level":0},{"icon":"fe_checkCircle","link":"","target":"_self","size":20,"width":2,"color":"","background":"","border":"","borderRadius":0,"borderWidth":1,"padding":5,"style":"default","level":0,"text":"\u003ca href=\u0022http://10.10.105.19:8104\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer noopener\u0022\u003eLaboratorio Región Caribe\u003c/a\u003e"},{"icon":"fe_checkCircle","link":"","target":"_self","size":20,"width":2,"color":"","background":"","border":"","borderRadius":0,"borderWidth":1,"padding":5,"style":"default","level":0,"text":"\u003ca href=\u0022http://10.10.105.19:8103\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer noopener\u0022\u003eLaboratorio Región Andina\u003c/a\u003e"}],"listCount":3,"columns":2,"uniqueID":"_ee05e7-33","kioblocks":[]} -->
+<div class="wp-block-kadence-iconlist kt-svg-icon-list-items kt-svg-icon-list-items_ee05e7-33 kt-svg-icon-list-columns-2 alignnone"><ul class="kt-svg-icon-list"><li class="kt-svg-icon-list-style-default kt-svg-icon-list-item-wrap kt-svg-icon-list-item-0 kt-svg-icon-list-level-0"><div style="display:inline-flex;justify-content:center;align-items:center" class="kt-svg-icon-list-single kt-svg-icon-list-single-fe_checkCircle"><svg style="display:inline-block;vertical-align:middle" viewbox="0 0 24 24" height="20" width="20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div><span class="kt-svg-icon-list-text"><a href="http://10.10.105.19:8102" target="_blank" rel="noreferrer noopener">Laboratorio Región DC</a></span></li><li class="kt-svg-icon-list-style-default kt-svg-icon-list-item-wrap kt-svg-icon-list-item-1 kt-svg-icon-list-level-0"><div style="display:inline-flex;justify-content:center;align-items:center" class="kt-svg-icon-list-single kt-svg-icon-list-single-fe_checkCircle"><svg style="display:inline-block;vertical-align:middle" viewbox="0 0 24 24" height="20" width="20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div><span class="kt-svg-icon-list-text"><a href="http://10.10.105.19:8104" target="_blank" rel="noreferrer noopener">Laboratorio Región Caribe</a></span></li><li class="kt-svg-icon-list-style-default kt-svg-icon-list-item-wrap kt-svg-icon-list-item-2 kt-svg-icon-list-level-0"><div style="display:inline-flex;justify-content:center;align-items:center" class="kt-svg-icon-list-single kt-svg-icon-list-single-fe_checkCircle"><svg style="display:inline-block;vertical-align:middle" viewbox="0 0 24 24" height="20" width="20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div><span class="kt-svg-icon-list-text"><a href="http://10.10.105.19:8103" target="_blank" rel="noreferrer noopener">Laboratorio Región Andina</a></span></li></ul></div>
+<!-- /wp:kadence/iconlist --></div></div></div>
+<!-- /wp:kadence/pane --></div></div></div>
+<!-- /wp:kadence/accordion --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"uniqueID":"_a49914-92","kioblocks":[]} -->
+<div class="wp-block-kadence-column inner-column-2 kadence-column_a49914-92"><div class="kt-inside-inner-col"><!-- wp:kadence/accordion {"uniqueID":"_3d9c77-d7","startCollapsed":true,"contentBorder":[0,0,0,0],"titleStyles":[{"size":[18,"",""],"sizeType":"px","lineHeight":[24,"",""],"lineType":"px","letterSpacing":"","family":"","google":"","style":"","weight":"","variant":"","subset":"","loadGoogle":true,"padding":[10,14,10,14],"marginTop":0,"color":"#555555","background":"#f2f2f2","border":["#555555","#555555","#555555","#555555"],"borderRadius":[0,0,0,0],"borderWidth":[0,0,0,0],"colorHover":"#ffffff","backgroundHover":"#43b649","borderHover":["#43b649","#43b649","#43b649","#43b649"],"colorActive":"#ffffff","backgroundActive":"#43b649","borderActive":["#43b649","#43b649","#43b649","#43b649"],"textTransform":""}],"kioblocks":[]} -->
+<div class="wp-block-kadence-accordion alignnone"><div class="kt-accordion-wrap kt-accordion-wrap kt-accordion-id_3d9c77-d7 kt-accordion-has-2-panes kt-active-pane-0 kt-accordion-block kt-pane-header-alignment-left kt-accodion-icon-style-basic kt-accodion-icon-side-right" style="max-width:none"><div class="kt-accordion-inner-wrap" data-allow-multiple-open="false" data-start-open="none"><!-- wp:kadence/pane {"uniqueID":"_066d4c-f9","kioblocks":[]} -->
+<div class="wp-block-kadence-pane kt-accordion-pane kt-accordion-pane-1 kt-pane_066d4c-f9"><div class="kt-accordion-header-wrap"><button class="kt-blocks-accordion-header kt-acccordion-button-label-show"><span class="kt-blocks-accordion-title-wrap"><span class="kt-blocks-accordion-title"></span></span><span class="kt-blocks-accordion-icon-trigger"></span></button></div><div class="kt-accordion-panel"><div class="kt-accordion-panel-inner"></div></div></div>
+<!-- /wp:kadence/pane --></div></div></div>
+<!-- /wp:kadence/accordion --></div></div>
+<!-- /wp:kadence/column --></div></div></div>
+<!-- /wp:kadence/rowlayout -->

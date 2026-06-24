@@ -1,0 +1,26 @@
+:: ============================================================
+:: Ejecutar en el servidor 10.10.105.14 - CMD como Administrador
+:: ============================================================
+
+:: 1. Ver PID del servicio MediWeb
+sc queryex "MediWeb Server"
+
+:: 2. Con ese PID, ver en qué puerto escucha
+::    (reemplaza XXXX con el PID que devuelva el comando anterior)
+netstat -ano | findstr XXXX
+
+:: 3. Ver TODOS los puertos en LISTEN (para encontrar Medilab)
+netstat -ano | findstr LISTEN
+
+:: 4. Ver los logs del servicio MediWeb (ruta típica de Medilab)
+type "C:\MediWeb\logs\mediaweb.log"
+type "C:\Medilab\MediWeb\logs\*.log"
+type "C:\Program Files\Medilab\logs\*.log"
+
+:: 5. Reiniciar el servicio
+net stop "MediWeb Server"
+net start "MediWeb Server"
+
+:: 6. Verificar de nuevo si abrió el puerto
+netstat -ano | findstr :8080
+netstat -ano | findstr LISTEN

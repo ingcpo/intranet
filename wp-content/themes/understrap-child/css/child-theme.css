@@ -11636,4 +11636,9 @@ figure.woocommerce-product-gallery__wrapper {
     color: #dc3545;
     border: 1px solid #e9ecef; }
 
+/* Frontier Academy gallery image - show full body, top aligned */
+.kb-gallery-image-ratio-land21 img.wp-image-10396 {
+  object-position: top center !important;
+}
+
 /*# sourceMappingURL=child-theme.css.map */

@@ -11,15 +11,43 @@ defined( 'ABSPATH' ) || exit;
  * WPCF7r_Submission Class - handles the submission process.
  */
 class WPCF7r_Submission {
+
 	/**
-	 * Change the response object returned to the client
+	 * The posted data.
 	 *
-	 * @param [object] $response - contact form 7 response object.
-	 * @return [object] $response - contact form 7 updated response object.
+	 * @var array
+	 */
+	public $posted_data = array();
+
+	/**
+	 * The response object.
+	 *
+	 * @var array
+	 */
+	public $response = array();
+
+	/**
+	 * The redirect url.
+	 *
+	 * @var string
+	 */
+	public $redirect_url = '';
+
+	/**
+	 * The scripts to be added to the header.
+	 *
+	 * @var array
+	 */
+	public $scripts = array();
+
+	/**
+	 * Changes the response object returned to the client after form submission
+	 *
+	 * @param array $response Contact Form 7 response object.
+	 * @return array Modified response object with any additional data.
 	 */
 	public function manipulate_cf7_response_object( $response ) {
-
-		if ( isset( $this->response ) && $this->response ) {
+		if ( isset( $this->response ) && is_array( $this->response ) ) {
 			$response = array_merge( $this->response, $response );
 		}
 
@@ -27,21 +55,19 @@ class WPCF7r_Submission {
 	}
 
 	/**
-	 * Add plugin support to browsers that don't support ajax.
+	 * Provides redirection support for browsers that don't support AJAX submissions
+	 * Handles any custom actions needed when form is submitted normally
 	 *
-	 * @param [object] $wpcf7 - contact form 7 form object.
+	 * @param WPCF7_ContactForm $wpcf7 Contact Form 7 form object.
 	 * @return void
 	 */
 	public function non_ajax_redirection( $wpcf7 ) {
-
 		if ( ! WPCF7_Submission::is_restful() ) {
-
 			$submission = WPCF7_Submission::get_instance();
 
 			$wpcf7_form = get_cf7r_form( $wpcf7, $submission );
 
 			if ( 'mail_sent' === $wpcf7_form->get_submission_status() ) {
-
 				$results = $this->handle_valid_actions( $wpcf7 );
 
 				if ( $results ) {
@@ -76,6 +102,7 @@ class WPCF7r_Submission {
 	public function add_header_script() {
 		if ( isset( $this->scripts ) && $this->scripts ) {
 			foreach ( $this->scripts as $script ) {
+				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				echo '<script>' . $script . '</script>';
 			}
 		}
@@ -124,7 +151,7 @@ class WPCF7r_Submission {
 			if ( isset( $this->response['send_mail'] ) && $this->response['send_mail'] ) {
 				add_filter(
 					'wpcf7_skip_mail',
-					function() {
+					function () {
 						return true;
 					}
 				);
@@ -185,8 +212,6 @@ class WPCF7r_Submission {
 	 */
 	public function handle_validation_actions( $wpcf_validation_obj, $tags ) {
 
-		// store refrence to the form tags status.
-		$wpcf_validation_obj->tags = $tags;
 		// get an instance of the form submission.
 		$submission = WPCF7_Submission::get_instance();
 
@@ -199,15 +224,19 @@ class WPCF7r_Submission {
 		// Get an instance of contact form 7 redirection post.
 		$wpcf7_form = get_cf7r_form( $cf7_form, $submission, $wpcf_validation_obj );
 
+		$wpcf7_form->set_tags( $tags );
+
 		$new_validation_obj = $wpcf_validation_obj;
-		
+
 		// Check if the form has validation actions.
 		if ( $submission && $wpcf7_form->has_actions() ) {
 			// process all actions.
 			$invalid_tags = $wpcf7_form->process_validation_actions();
 
 			if ( $invalid_tags ) {
-				$new_validation_obj = new WPCF7_Validation();
+				if ( ! is_a( $new_validation_obj, 'WPCF7_Validation' ) ) {
+					$new_validation_obj = new WPCF7_Validation();
+				}
 
 				// Invalidate all invalid tags.
 				foreach ( reset( $invalid_tags ) as $custom_error_action_results ) {

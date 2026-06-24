@@ -1,13 +1,34 @@
 <?php
+/**
+ * Class WPCF7r_List_Table file.
+ *
+ * @package wpcf7-redirect
+ * @since 1.0.0
+ */
+
 defined( 'ABSPATH' ) || exit;
 
 if ( class_exists( 'WP_List_Table' ) ) {
+	/**
+	 * Class WPCF7R_List_Table
+	 *
+	 * @since 1.0.0
+	 */
 	class WPCF7R_List_Table extends WP_List_Table {
 
-		public $list_data = array();
 		/**
-		* Constructor will create the menu item
-		*/
+		 * Columns to display
+		 *
+		 * @var array - columns to display
+		 */
+		public $list_data = array();
+
+		/**
+		 * Constructor will create the menu item
+		 *
+		 * @param array $columns - columns to display.
+		 * @param array $data - data to display.
+		 */
 		public function __construct( $columns, $data ) {
 
 			parent::__construct();
@@ -15,7 +36,6 @@ if ( class_exists( 'WP_List_Table' ) ) {
 			$this->list_data = $data;
 
 			$this->columns = $columns;
-
 		}
 
 		/**
@@ -53,7 +73,6 @@ if ( class_exists( 'WP_List_Table' ) ) {
 
 			$this->_column_headers = array( $columns, $hidden, $sortable );
 			$this->items           = $data;
-
 		}
 
 		/**
@@ -80,8 +99,8 @@ if ( class_exists( 'WP_List_Table' ) ) {
 		/**
 		 * Define what data to show on each column of the table
 		 *
-		 * @param $item
-		 * @param $column_name
+		 * @param array  $item - data.
+		 * @param string $column_name - column name.
 		 */
 		public function column_default( $item, $column_name ) {
 
@@ -102,20 +121,22 @@ if ( class_exists( 'WP_List_Table' ) ) {
 		/**
 		 * Allows you to sort the data by the variables set in the $_GET
 		 *
-		 * @param $a
-		 * @param $b
+		 * @param array $a - data.
+		 * @param array $b - data.
+		 *
+		 * @return int - result of comparison.
 		 */
 		private function sort_data( $a, $b ) {
-			// Set defaults
+			// Set defaults.
 			$orderby = 'title';
 			$order   = 'asc';
 
-			// If orderby is set, use this as the sort column
+			// If orderby is set, use this as the sort column.
 			if ( ! empty( $_GET['orderby'] ) ) {
 				$orderby = $_GET['orderby'];
 			}
 
-			// If order is set use this as the order
+			// If order is set use this as the order.
 			if ( ! empty( $_GET['order'] ) ) {
 				$order = $_GET['order'];
 			}
@@ -130,4 +151,3 @@ if ( class_exists( 'WP_List_Table' ) ) {
 		}
 	}
 }
-
